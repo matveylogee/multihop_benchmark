@@ -1,0 +1,22 @@
+{
+  "input_path": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage2/jsonl/kqapro_complex_candidates.jsonl",
+  "num_input_rows": 72791,
+  "num_keep_candidates": 42802,
+  "num_pattern_bank_rows": 1905,
+  "num_final_shortlist_rows": 180,
+  "keep_threshold": 8,
+  "pattern_only_threshold": 4,
+  "max_per_signature": 4,
+  "max_per_family": 30,
+  "final_shortlist_target": 120,
+  "preferred_families": [
+    "comparison_or_superlative",
+    "logical_set",
+    "multi_hop",
+    "qualifier",
+    "temporal"
+  ],
+  "drop_families": [
+    "verification"
+  ]
+}

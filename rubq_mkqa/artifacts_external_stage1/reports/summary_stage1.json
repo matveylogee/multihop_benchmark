@@ -1,0 +1,72 @@
+{
+  "rubq_summary": {
+    "name": "rubq_imported",
+    "n_records": 2910,
+    "by_role": {
+      "wording_donor": 2357,
+      "direct_ru_candidate": 553
+    },
+    "by_source": {
+      "RuBQ_2.0": 2910
+    },
+    "by_reasoning_type": {
+      "single_hop": 1884,
+      "reverse_relation": 35,
+      "multi_constraint": 377,
+      "multi_hop": 69,
+      "ranking": 19,
+      "qualifier_constraint": 26,
+      "negation_or_exclusion": 22,
+      "qualifier_answer": 6,
+      "count": 5,
+      "temporal_or_duration": 43
+    }
+  },
+  "mkqa_summary": {
+    "name": "mkqa_imported",
+    "n_records": 10000,
+    "by_role": {
+      "wording_donor": 7851,
+      "reconstruction_candidate": 2149
+    },
+    "by_source": {
+      "MKQA": 10000
+    },
+    "by_reasoning_type": {
+      "single_hop_or_simple_open_qa": 6272,
+      "comparison_or_superlative": 965,
+      "temporal_or_duration": 2031,
+      "count": 569,
+      "set_intersection_or_multi_constraint": 718,
+      "negation_or_exclusion": 128
+    }
+  },
+  "merged_summary": {
+    "name": "external_stage1_merged",
+    "n_records": 12910,
+    "by_role": {
+      "wording_donor": 10208,
+      "direct_ru_candidate": 553,
+      "reconstruction_candidate": 2149
+    },
+    "by_source": {
+      "RuBQ_2.0": 2910,
+      "MKQA": 10000
+    },
+    "by_reasoning_type": {
+      "single_hop": 1884,
+      "reverse_relation": 35,
+      "multi_constraint": 377,
+      "multi_hop": 69,
+      "ranking": 19,
+      "qualifier_constraint": 26,
+      "negation_or_exclusion": 150,
+      "qualifier_answer": 6,
+      "count": 574,
+      "temporal_or_duration": 2074,
+      "single_hop_or_simple_open_qa": 6272,
+      "comparison_or_superlative": 965,
+      "set_intersection_or_multi_constraint": 718
+    }
+  }
+}

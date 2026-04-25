@@ -1,0 +1,129 @@
+program_signature,count,family,mean_program_length,mean_priority_score
+FindAll -> FilterStr -> FilterConcept -> Relate -> FilterConcept -> What,60,temporal,6.0,10.5
+FindAll -> FilterNum -> FilterConcept -> Relate -> FilterConcept -> What,32,temporal,6.0,10.0625
+FindAll -> FilterStr -> QFilterStr -> FilterConcept -> Relate -> FilterConcept -> Count,30,count,7.0,15.166666666666666
+FindAll -> FilterDate -> FilterConcept -> Relate -> FilterConcept -> What,30,temporal,6.0,11.0
+FindAll -> FilterStr -> FilterConcept -> Relate -> QFilterYear -> FilterConcept -> What,21,qualifier,7.0,14.0
+FindAll -> FilterNum -> QFilterYear -> FilterConcept -> Relate -> FilterConcept -> Count,16,count,7.0,16.0
+FindAll -> FilterStr -> FilterConcept -> Relate -> QFilterDate -> FilterConcept -> What,15,qualifier,7.0,14.0
+FindAll -> FilterStr -> FilterConcept -> Relate -> QFilterStr -> FilterConcept -> What,15,qualifier,7.0,14.0
+Find -> Relate -> Find -> And -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyStr,14,multi_hop,9.0,24.0
+FindAll -> FilterYear -> FilterConcept -> Relate -> FilterConcept -> What,13,temporal,6.0,11.0
+Find -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyStr,11,verification,6.0,15.0
+FindAll -> FilterStr -> QFilterNum -> FilterConcept -> Relate -> FilterConcept -> Count,11,count,7.0,15.0
+FindAll -> FilterNum -> QFilterDate -> FilterConcept -> Relate -> FilterConcept -> Count,10,count,7.0,16.0
+Find -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyYear,10,verification,6.0,15.0
+Find -> FilterStr -> Find -> FilterDate -> SelectBetween,9,comparison_or_superlative,5.0,10.0
+Find -> FilterStr -> Relate -> FilterConcept -> QueryAttr,9,filtering,5.0,6.0
+Find -> Relate -> Find -> And -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyYear,8,multi_hop,9.0,24.0
+FindAll -> FilterNum -> QFilterYear -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,8,logical_set,9.0,19.0
+Find -> FilterDate -> Find -> FilterNum -> SelectBetween,8,comparison_or_superlative,5.0,10.0
+Find -> Relate -> Find -> And -> Relate -> QFilterDate -> FilterConcept -> QueryAttr -> VerifyYear,7,multi_hop,9.0,24.0
+Find -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyStr,7,verification,6.0,15.0
+FindAll -> FilterStr -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyYear,7,verification,6.0,15.0
+FindAll -> FilterNum -> QFilterYear -> FilterConcept -> Relate -> FilterConcept -> What,7,qualifier,7.0,14.0
+Find -> FilterDate -> Find -> FilterDate -> SelectBetween,7,comparison_or_superlative,5.0,10.0
+Find -> FilterStr -> Find -> FilterNum -> SelectBetween,7,comparison_or_superlative,5.0,10.0
+Find -> Relate -> Find -> And -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyYear,6,multi_hop,9.0,24.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterNum -> QFilterYear -> FilterConcept -> And -> What,6,logical_set,9.0,19.0
+FindAll -> FilterYear -> FilterConcept -> FindAll -> FilterStr -> QFilterStr -> FilterConcept -> And -> What,6,logical_set,9.0,19.0
+FindAll -> FilterYear -> QFilterStr -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,6,logical_set,9.0,19.0
+Find -> Relate -> QFilterDate -> FilterConcept -> QueryAttr -> VerifyStr,6,verification,6.0,15.0
+Find -> FilterDate -> Find -> FilterStr -> SelectBetween,6,comparison_or_superlative,5.0,10.0
+Find -> FilterStr -> Find -> FilterStr -> SelectBetween,6,comparison_or_superlative,5.0,10.0
+Find -> Relate -> Find -> And -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyStr,5,multi_hop,9.0,24.0
+Find -> Relate -> Find -> And -> Relate -> QFilterStr -> FilterConcept -> Relate -> FilterConcept -> Count,5,multi_hop,10.0,24.0
+Find -> FilterDate -> Relate -> FilterConcept -> SelectAmong,5,comparison_or_superlative,5.0,10.0
+Find -> FilterNum -> Find -> FilterDate -> SelectBetween,5,comparison_or_superlative,5.0,10.0
+Find -> FilterNum -> Find -> FilterStr -> SelectBetween,5,comparison_or_superlative,5.0,10.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterYear -> QFilterStr -> FilterConcept -> And -> What,4,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterNum -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,4,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterNum -> FilterConcept -> FindAll -> FilterYear -> FilterConcept -> And -> What,4,logical_set,9.0,19.0
+Find -> FilterDate -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyStr,4,verification,7.0,16.0
+Find -> FilterDate -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyStr,4,verification,7.0,16.0
+FindAll -> FilterStr -> QFilterYear -> FilterConcept -> Relate -> FilterConcept -> Count,4,count,7.0,16.0
+FindAll -> FilterStr -> QFilterYear -> FilterConcept -> Relate -> FilterConcept -> What,4,qualifier,7.0,14.0
+Find -> FilterNum -> Relate -> FilterConcept -> SelectAmong,4,comparison_or_superlative,5.0,10.0
+Find -> FilterStr -> Relate -> FilterConcept -> SelectAmong,4,comparison_or_superlative,5.0,10.0
+Find -> FilterYear -> Find -> FilterNum -> SelectBetween,4,comparison_or_superlative,5.0,10.0
+Find -> Relate -> QFilterYear -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> FilterConcept -> And -> What,3,multi_hop,12.0,23.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterNum -> QFilterDate -> FilterConcept -> And -> What,3,logical_set,9.0,19.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterStr -> QFilterStr -> FilterConcept -> And -> What,3,logical_set,9.0,19.0
+FindAll -> FilterYear -> FilterConcept -> FindAll -> FilterStr -> QFilterNum -> FilterConcept -> And -> What,3,logical_set,9.0,19.0
+FindAll -> FilterYear -> FilterConcept -> FindAll -> FilterStr -> QFilterYear -> FilterConcept -> And -> What,3,logical_set,9.0,19.0
+Find -> FilterStr -> Relate -> QFilterDate -> FilterConcept -> QueryAttr -> VerifyStr,3,verification,7.0,16.0
+FindAll -> FilterStr -> QFilterDate -> FilterConcept -> Relate -> FilterConcept -> Count,3,count,7.0,16.0
+FindAll -> FilterStr -> QFilterStr -> FilterConcept -> Relate -> FilterConcept -> What,3,qualifier,7.0,14.0
+Find -> Relate -> Find -> And -> Relate -> QFilterYear -> FilterConcept -> Relate -> FilterConcept -> Count,2,multi_hop,10.0,25.0
+Find -> Relate -> Find -> And -> Relate -> QFilterDate -> FilterConcept -> QueryAttr -> VerifyStr,2,multi_hop,9.0,24.0
+Find -> FilterStr -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Or -> Count,2,multi_hop,12.0,23.0
+Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Or -> Count,2,multi_hop,14.0,23.0
+FindAll -> FilterNum -> FilterConcept -> FindAll -> FilterNum -> QFilterDate -> FilterConcept -> And -> What,2,logical_set,9.0,19.0
+FindAll -> FilterNum -> QFilterDate -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,2,logical_set,9.0,19.0
+FindAll -> FilterNum -> QFilterStr -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,2,logical_set,9.0,19.0
+FindAll -> FilterNum -> QFilterYear -> FilterConcept -> FindAll -> FilterNum -> FilterConcept -> And -> What,2,logical_set,9.0,19.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterStr -> QFilterNum -> FilterConcept -> And -> What,2,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterStr -> FilterConcept -> FindAll -> FilterYear -> FilterConcept -> And -> What,2,logical_set,9.0,19.0
+Find -> FilterDate -> Relate -> QFilterNum -> FilterConcept -> QueryAttr -> VerifyStr,2,verification,7.0,16.0
+Find -> FilterNum -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyStr,2,verification,7.0,16.0
+Find -> FilterYear -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyStr,2,verification,7.0,16.0
+Find -> FilterStr -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyStr,2,verification,7.0,15.5
+Find -> FilterNum -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyStr,2,verification,7.0,15.0
+Find -> FilterStr -> Relate -> QFilterNum -> FilterConcept -> QueryAttr -> VerifyStr,2,verification,7.0,15.0
+FindAll -> FilterNum -> QFilterDate -> FilterConcept -> Relate -> FilterConcept -> What,2,qualifier,7.0,14.0
+FindAll -> FilterStr -> QFilterDate -> FilterConcept -> Relate -> FilterConcept -> What,2,qualifier,7.0,14.0
+FindAll -> FilterStr -> QFilterNum -> FilterConcept -> Relate -> FilterConcept -> What,2,qualifier,7.0,14.0
+FindAll -> FilterYear -> FilterConcept -> Relate -> QFilterStr -> FilterConcept -> What,2,qualifier,7.0,14.0
+Find -> FilterStr -> Find -> FilterYear -> SelectBetween,2,comparison_or_superlative,5.0,10.0
+Find -> FilterNum -> Relate -> FilterConcept -> QueryAttr,2,filtering,5.0,6.0
+Find -> FilterStr -> Find -> FilterStr -> QueryRelation,2,filtering,5.0,6.0
+Find -> FilterStr -> Relate -> FilterConcept -> What,2,filtering,5.0,6.0
+Find -> Relate -> Find -> And -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyDate,1,multi_hop,9.0,24.0
+Find -> Relate -> Find -> And -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyDate,1,multi_hop,9.0,24.0
+Find -> Relate -> Find -> And -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyNum,1,multi_hop,9.0,24.0
+Find -> FilterDate -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Or -> Count,1,multi_hop,12.0,23.0
+Find -> FilterStr -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> QFilterStr -> FilterConcept -> And -> What,1,multi_hop,13.0,23.0
+Find -> FilterYear -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> FilterConcept -> And -> Count,1,multi_hop,12.0,23.0
+Find -> FilterYear -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Or -> Count,1,multi_hop,12.0,23.0
+Find -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> QFilterDate -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+Find -> Relate -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> QFilterYear -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Find -> FilterDate -> Relate -> FilterConcept -> Or -> Count,1,multi_hop,12.0,23.0
+Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Find -> FilterStr -> Relate -> FilterConcept -> Or -> Count,1,multi_hop,12.0,23.0
+Find -> Relate -> Find -> And -> Relate -> FilterConcept -> Find -> Relate -> QFilterYear -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+Find -> Relate -> Find -> And -> Relate -> FilterConcept -> FindAll -> FilterNum -> QFilterStr -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+Find -> Relate -> Find -> And -> Relate -> QFilterDate -> FilterConcept -> Find -> Relate -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+Find -> Relate -> Find -> And -> Relate -> QFilterDate -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+FindAll -> FilterNum -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> QFilterDate -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+FindAll -> FilterNum -> QFilterYear -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+FindAll -> FilterStr -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> QFilterStr -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+FindAll -> FilterYear -> FilterConcept -> Find -> Relate -> Find -> And -> Relate -> QFilterStr -> FilterConcept -> And -> What,1,multi_hop,12.0,23.0
+FindAll -> FilterDate -> QFilterStr -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterNum -> FilterConcept -> FindAll -> FilterDate -> QFilterStr -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterNum -> FilterConcept -> FindAll -> FilterNum -> QFilterYear -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterNum -> FilterConcept -> FindAll -> FilterStr -> QFilterStr -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterDate -> QFilterStr -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterStr -> QFilterDate -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> FilterConcept -> FindAll -> FilterStr -> QFilterYear -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterDate -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterDate -> FilterConcept -> FindAll -> FilterYear -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterStr -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterYear -> FilterConcept -> FindAll -> FilterNum -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterStr -> QFilterYear -> FilterConcept -> FindAll -> FilterStr -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+FindAll -> FilterYear -> FilterConcept -> FindAll -> FilterNum -> QFilterYear -> FilterConcept -> And -> What,1,logical_set,9.0,19.0
+Find -> FilterDate -> Relate -> QFilterDate -> FilterConcept -> QueryAttr -> VerifyStr,1,verification,7.0,16.0
+Find -> FilterNum -> Relate -> QFilterDate -> FilterConcept -> QueryAttr -> VerifyNum,1,verification,7.0,16.0
+Find -> FilterStr -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyNum,1,verification,7.0,16.0
+Find -> Relate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyDate,1,verification,6.0,15.0
+Find -> Relate -> QFilterYear -> FilterConcept -> QueryAttr -> VerifyYear,1,verification,6.0,15.0
+FindAll -> FilterDate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyStr,1,verification,6.0,15.0
+FindAll -> FilterDate -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyYear,1,verification,6.0,15.0
+FindAll -> FilterNum -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyStr,1,verification,6.0,15.0
+FindAll -> FilterNum -> QFilterStr -> FilterConcept -> Relate -> FilterConcept -> Count,1,count,7.0,15.0
+FindAll -> FilterStr -> QFilterDate -> FilterConcept -> QueryAttr -> VerifyStr,1,verification,6.0,15.0
+FindAll -> FilterStr -> QFilterNum -> FilterConcept -> QueryAttr -> VerifyYear,1,verification,6.0,15.0
+FindAll -> FilterStr -> QFilterStr -> FilterConcept -> QueryAttr -> VerifyNum,1,verification,6.0,15.0
+FindAll -> FilterDate -> FilterConcept -> Relate -> QFilterStr -> FilterConcept -> What,1,qualifier,7.0,14.0
+FindAll -> FilterStr -> FilterConcept -> Relate -> QFilterNum -> FilterConcept -> What,1,qualifier,7.0,14.0
+Find -> FilterDate -> Find -> FilterYear -> SelectBetween,1,comparison_or_superlative,5.0,10.0
+Find -> FilterNum -> Find -> FilterNum -> SelectBetween,1,comparison_or_superlative,5.0,10.0
+Find -> FilterYear -> Find -> FilterStr -> SelectBetween,1,comparison_or_superlative,5.0,10.0

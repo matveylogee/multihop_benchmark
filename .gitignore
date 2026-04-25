@@ -1,0 +1,72 @@
+### macOS
+# Finder metadata
+.DS_Store
+
+# Thumbnails
+._*
+
+# Custom folder icons
+Icon
+
+# Volume root files
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+### Python
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# dotenv environment variable files
+.env
+
+# Virtual environments
+.venv
+env/
+venv/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Type checkers
+.mypy_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+# .python-version
+wikidata/out_wikidata_benchmark/bad_responses
+wikidata/out_wikidata_benchmark/cache
+wikidata/out_wikidata_benchmark/label_cache
+wikidata/out_wikidata_benchmark/recovery_now
+wikidata/out_wikidata_benchmark/pools
+kqapro/artifacts_kqapro_stage2/csv/kqapro_all_normalized.csv
+kqapro/artifacts_kqapro_stage2/jsonl/kqapro_complex_candidates.jsonl
+kqapro/artifacts_kqapro_stage3/csv/kqapro_filtered_candidates.csv
+kqapro/artifacts_kqapro_stage3/jsonl/kqapro_filtered_candidates.jsonl
+2wikimultihop/artifacts_2wikimultihop_stage1/_cache_raw
+2wikimultihop/artifacts_2wikimultihop_stage1/jsonl/2wikimultihop_all_normalized.json
+2wikimultihop/artifacts_2wikimultihop_stage1/jsonl/2wikimultihop_all_normalized.jsonl
+kqapro/artifacts_kqapro_stage2/csv/kqapro_complex_candidates.csv
+kqapro/artifacts_kqapro_stage2/jsonl/kqapro_all_normalized.jsonl

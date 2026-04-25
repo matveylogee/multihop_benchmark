@@ -1,0 +1,10 @@
+drop_reason,count
+binary_question,15424
+meta_relation,14147
+family=verification,9674
+contains_url,6375
+count_only_simple,3666
+technical_location,1167
+too_nested_and_non_user_style,1160
+membership_date_microfact,624
+contains_email,5

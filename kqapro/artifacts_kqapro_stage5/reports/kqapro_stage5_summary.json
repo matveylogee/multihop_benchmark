@@ -1,0 +1,26 @@
+{
+  "review_csv_path": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage3/csv/kqapro_manual_review_sheet.csv",
+  "shortlist_jsonl_path": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage3/jsonl/kqapro_reconstruction_shortlist.jsonl",
+  "num_review_rows": 74,
+  "num_selected_rows": 72,
+  "num_packaged_rows": 72,
+  "num_missing_full_records_after_join": 0,
+  "answer_mode_distribution": {
+    "single": 72
+  },
+  "reasoning_family_distribution": {
+    "qualifier": 21,
+    "temporal": 17,
+    "logical_set": 15,
+    "multi_hop": 14,
+    "comparison_or_superlative": 5
+  },
+  "exports": {
+    "full_jsonl": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage5/jsonl/kqapro_selected_for_translation_pipeline.jsonl",
+    "full_json": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage5/jsonl/kqapro_selected_for_translation_pipeline.json",
+    "full_csv": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage5/csv/kqapro_selected_for_translation_pipeline.csv",
+    "minimal_jsonl": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage5/jsonl/kqapro_translation_minimal.jsonl",
+    "minimal_json": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage5/jsonl/kqapro_translation_minimal.json",
+    "minimal_csv": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage5/csv/kqapro_translation_minimal.csv"
+  }
+}

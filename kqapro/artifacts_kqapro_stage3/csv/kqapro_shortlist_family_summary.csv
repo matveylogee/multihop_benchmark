@@ -1,0 +1,7 @@
+primary_reasoning_family,recommended_action,count,mean_score,mean_program_length,mean_hops
+comparison_or_superlative,keep_for_reconstruction,30,13.0,5.0,1.0
+count,pattern_only,30,10.6,6.6,1.0
+logical_set,keep_for_reconstruction,30,20.933333333333334,9.0,1.0
+multi_hop,keep_for_reconstruction,30,25.333333333333332,10.4,2.3333333333333335
+qualifier,keep_for_reconstruction,30,17.0,7.0,1.0
+temporal,keep_for_reconstruction,30,12.4,5.466666666666667,1.0

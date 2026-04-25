@@ -1,0 +1,9 @@
+primary_reasoning_family,count,mean_program_length,mean_priority_score
+multi_hop,75,10.08,23.72
+logical_set,75,9.0,19.0
+count,75,7.0,15.506666666666666
+verification,75,6.346666666666667,15.28
+qualifier,75,7.0,14.0
+temporal,75,6.0,11.0
+comparison_or_superlative,75,5.0,10.0
+filtering,75,5.8,9.2

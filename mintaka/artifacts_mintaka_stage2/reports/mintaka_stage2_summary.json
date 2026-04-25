@@ -1,0 +1,27 @@
+{
+  "input_path": "/Users/matvey/Desktop/mintaka/artifacts_mintaka_stage1/jsonl/mintaka_multihop_candidates.jsonl",
+  "raw_rows": 2000,
+  "scored_rows": 2000,
+  "decision_counts": {
+    "drop": 1690,
+    "pattern_only": 282,
+    "keep_for_reconstruction": 28
+  },
+  "keep_rows_after_template_filter": 28,
+  "pattern_rows_after_template_filter": 267,
+  "pattern_bank_rows": 28,
+  "shortlist_rows": 28,
+  "answer_mode_counts_shortlist": {
+    "list_like": 26,
+    "single": 2
+  },
+  "category_counts_shortlist": {
+    "videogames": 7,
+    "books": 5,
+    "sports": 5,
+    "politics": 4,
+    "music": 3,
+    "history": 2,
+    "geography": 2
+  }
+}

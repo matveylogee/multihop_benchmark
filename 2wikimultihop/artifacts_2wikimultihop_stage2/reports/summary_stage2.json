@@ -1,0 +1,14 @@
+{
+  "filtered_candidates": 399,
+  "pattern_bank": 366,
+  "reconstruction_shortlist": 35,
+  "manual_review_sheet": 35,
+  "translation_minimal": 35,
+  "shortlist_by_type": {
+    "comparison": 25,
+    "bridge_comparison": 10
+  },
+  "shortlist_by_answer_mode": {
+    "single": 35
+  }
+}

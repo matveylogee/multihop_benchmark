@@ -1,0 +1,28 @@
+{
+  "all_rows": 20000,
+  "filtered_rows": 2000,
+  "included_complexity_types": [
+    "multihop"
+  ],
+  "answer_mode_counts": {
+    "single": 1380,
+    "unknown": 570,
+    "list_like": 46,
+    "boolean": 4
+  },
+  "category_counts": {
+    "videogames": 250,
+    "books": 250,
+    "music": 250,
+    "sports": 250,
+    "politics": 250,
+    "history": 250,
+    "movies": 250,
+    "geography": 250
+  },
+  "split_counts": {
+    "train": 1400,
+    "test": 400,
+    "validation": 200
+  }
+}

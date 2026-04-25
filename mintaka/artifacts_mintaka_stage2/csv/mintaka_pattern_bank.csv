@@ -1,0 +1,29 @@
+surface_template,category,answer_mode,n_examples,top_score,top_num_answers,example_benchmark_id,example_question,example_answer
+<ent> awards was the latest <ent> game nominated for at <ent> <year>?,videogames,list_like,1,15,3,mintaka_test_4af81c8c,Which awards was the latest Animal Crossing game nominated for at The Game Awards 2020?,"Best Family Game, Best Multiplayer Game, Game of the Year"
+<ent> produced the movie that's based on the <ent> book released in <year>?,books,list_like,1,15,3,mintaka_test_63690199,Who produced the movie that's based on the Harry Potter book released in 2004?,"Chris Columbus, David Heyman, Mark Radcliffe"
+<ent> were the first two senators to represent the latest state added to the <ent>?,politics,list_like,1,15,2,mintaka_test_5bd63af8,Who were the first two senators to represent the latest state added to the Union?,Hiram Fong and Oren E. Long
+<ent> wives of us presidents were also mothers of us presidents?,history,list_like,1,15,2,mintaka_train_08cbd2e7,Which wives of US presidents were also mothers of US presidents?,"Abagail Adams, Barbara Bush"
+<ent> city did the band that wrote <quote> come from?,music,list_like,1,14,2,mintaka_train_b9354cf6,"Which city did the band that wrote ""Shiny Happy People"" come from?","Athens, GA"
+<ent> was the first president of the <ent> born?,history,list_like,1,14,2,mintaka_train_05e10f57,Where was the first president of the United States born?,"Westmoreland County, Virginia"
+<ent> was the top scorer of the <ent> tournament this year?,sports,list_like,1,14,2,mintaka_validation_304b59eb,Who was the top scorer of the Copa America tournament this year?,"Lionel Messi, Luis Diaz"
+<ent> were the playable characters of the fourth <ent> game and its expansions?,videogames,list_like,1,14,3,mintaka_train_29e5bf22,Who were the playable characters of the fourth Grand Theft Auto game and its expansions?,"Niko Bellic, Johnny Klebitz, Luis Fernando Lopez"
+<ent> are the love interests in <ent> <num>?,videogames,list_like,1,13,3,mintaka_train_91c7335e,Who are the love interests in Mass Effect 1?,"Kaidan Alenko, Ashley Williams, Liara T'Soni"
+<ent> characters were <ent>'s best friends and his quest companions?,videogames,list_like,1,13,2,mintaka_train_ec2f1490,What Disney characters were Sora's best friends and his quest companions?,Donald Duck and Goofy
+<ent> platforms can the first <ent> mobile game be played on?,videogames,list_like,1,13,2,mintaka_train_76dc240c,What platforms can the first Animal Crossing mobile game be played on?,"Android, iOS"
+<ent> was <ent>' two-way star born?,sports,list_like,1,13,3,mintaka_train_b5103288,Where was Los Angeles Angels' two-way star born?,"Oshu, Iwate, Japan"
+<ent> was in charge of the screenplay on the movie that was based on the third book of <ent> of the <ent>?,books,list_like,1,13,2,mintaka_train_af82fcbd,Who was in charge of the screenplay on the movie that was based on the third book of Lord of the Rings?,"Frank Walsh, Philippa Boyens, Peter Jackson"
+<ent> was the pitcher for the winning team in the first <ent>?,sports,list_like,1,13,2,mintaka_test_655db184,Who was the pitcher for the winning team in the first World Series?,Bill Dinneen and Cy Young
+<ent> was the wife of the 10th us president?,politics,list_like,1,13,2,mintaka_train_19f244a1,Who was the wife of the 10th US president?,Letitia & Julia Tyler
+<ent> was the wife of the 23rd president?,politics,list_like,1,13,2,mintaka_validation_678c0c86,Who was the wife of the 23rd president?,Mary Dimmick Harrison and Caroline Harrison
+<ent> were the children of <ent>'s only female prime minister?,politics,list_like,1,13,2,mintaka_train_92b34ba1,Who were the children of India's only female prime minister?,Rajiv Gandhi and Sanjay Gandhi
+"<ent> were the two initial continents in the video game that <ent> released on <ent> <num>, <year>?",videogames,list_like,1,13,2,mintaka_train_d8a4fd32,"What were the two initial continents in the video game that Blizzard Entertainment released on November 23, 2004?","Kalimdor, Eastern Kingdoms"
+<ent> co-collaborated on the script for <ent>?,books,list_like,1,12,2,mintaka_train_0f501f46,Who co-collaborated on the script for The Godfather?,Mario Puzo Francis Ford Coppola
+<ent> did the winner of the <year> <ent> in <ent> go to university?,books,list_like,1,12,2,mintaka_train_fb2caf1b,Where did the winner of the 2017 Nobel Prize in Literature go to university?,University of Kent at Canterbury and University of East Anglia
+<ent> drummer for <ent> was born in what city?,music,list_like,1,12,2,mintaka_validation_2edc90bd,The drummer for Nirvana was born in what city?,"Warren, Ohio"
+<ent> is the <year> al mvp from?,sports,list_like,1,12,2,mintaka_test_7215395f,Where is the 2020 AL MVP from?,"Cruces, Cuba"
+<ent> is the smallest country that is part of the largest continent?,geography,single,1,12,1,mintaka_train_5362eb29,What is the smallest country that is part of the largest continent?,Maldives
+<ent> was the author who wrote the <ent> books born?,books,list_like,1,12,2,mintaka_test_a63f4fcf,Where was the author who wrote the Jurassic Park books born?,"Chicago, IL"
+<ent> was the drummer from r.e.m. born?,music,list_like,1,12,2,mintaka_train_f31def6d,Where was the drummer from R.E.M. born?,"Duluth, Minnesota"
+<ent> was the head coach of <ent> cf born?,sports,list_like,1,12,2,mintaka_train_7ab42179,Where was the head coach of Real Madrid CF born?,"Reggiolo, Italy"
+<ent> what is the name of <ent><quote>s best friends?,videogames,list_like,1,12,2,mintaka_train_2c1804b1,In Kingdom Hearts what is the name of Sora's Nobody's best friends?,Xion and Axel
+<ent>’s the biggest continent with the highest population?,geography,single,1,12,1,mintaka_train_2548ae2c,What’s the biggest continent with the highest population?,Asia

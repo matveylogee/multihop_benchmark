@@ -1,0 +1,3204 @@
+[
+  {
+    "benchmark_id": "mintaka_test_4af81c8c",
+    "source_dataset": "mintaka",
+    "source_split": "test",
+    "source_id": "4af81c8c",
+    "question_en_original": "Which awards was the latest Animal Crossing game nominated for at The Game Awards 2020?",
+    "question_translations": {
+      "ar": "ما الجوائز التي ترشحت لها أحدث لعبة من أنيمال كروسينغ في حفل جوائز الألعاب 2020؟",
+      "de": "Für welche Auszeichnung war das neueste „Animal Crossing“-Spiel bei den „The Game Awards“ 2020 nominiert?",
+      "ja": "『どうぶつの森』の最新作は、「ゲームアワード2020」でどのような賞にノミネートされましたか？",
+      "hi": "गेम एवार्ड्स 2020 में सबसे नया एनीमल क्रॉसिंग गेम किस ख़िताब के लिये नामांकित हुआ था?",
+      "pt": "Qual foi a indicação para premiação mais recente que o jogo Animal Crossing recebeu no The Game Awards 2020?",
+      "es": "¿A qué premios se nominó el último juego de Animal Crossing en los Game Awards 2020?",
+      "it": "A quali premi è stato nominato l'ultimo gioco Animal Crossing durante i Game Awards del 2020?",
+      "fr": "Pour quel prix le dernier jeu Animal Crossing a-t-il été nominé aux Game Awards 2020 ?"
+    },
+    "category": "videogames",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q1139803",
+        "entity_type": "entity",
+        "label": "Animal Crossing",
+        "mention": "Animal Crossing",
+        "span": [
+          28,
+          43
+        ]
+      },
+      {
+        "name": "Q18642757",
+        "entity_type": "entity",
+        "label": "The Game Awards",
+        "mention": "The Game Awards",
+        "span": [
+          66,
+          81
+        ]
+      },
+      {
+        "name": "2020",
+        "entity_type": "date",
+        "label": "",
+        "mention": "2020",
+        "span": [
+          82,
+          86
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Best Family Game, Best Multiplayer Game, Game of the Year",
+    "answer_entities": [
+      {
+        "name": "Q50808928",
+        "label_en": "The Game Awards - Best Family Game",
+        "raw_label": {
+          "en": "The Game Awards - Best Family Game",
+          "ar": null,
+          "de": null,
+          "es": "The Game Awards - Mejor juego familiar",
+          "fr": "Game Award du meilleur jeu pour la famille",
+          "hi": null,
+          "it": null,
+          "ja": null,
+          "pt": null
+        }
+      },
+      {
+        "name": "Q104117248",
+        "label_en": "The Game Awards − Best Multiplayer",
+        "raw_label": {
+          "en": "The Game Awards − Best Multiplayer",
+          "ar": null,
+          "de": null,
+          "es": "The Game Awards - Mejor juego multijugador",
+          "fr": "Game Award du meilleur jeu multijoueur",
+          "hi": null,
+          "it": null,
+          "ja": null,
+          "pt": null
+        }
+      },
+      {
+        "name": "Q78762377",
+        "label_en": "The Game Awards − Game of the Year",
+        "raw_label": {
+          "en": "The Game Awards − Game of the Year",
+          "ar": null,
+          "de": null,
+          "es": "The Game Awards - Juego del año",
+          "fr": "Game Award du meilleur jeu de l'année",
+          "hi": null,
+          "it": null,
+          "ja": null,
+          "pt": "The Game Award de Jogo do Ano"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q50808928",
+        "label_en": "The Game Awards - Best Family Game"
+      },
+      {
+        "name": "Q104117248",
+        "label_en": "The Game Awards − Best Multiplayer"
+      },
+      {
+        "name": "Q78762377",
+        "label_en": "The Game Awards − Game of the Year"
+      }
+    ],
+    "gold_qids": [
+      "Q50808928",
+      "Q104117248",
+      "Q78762377"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 3,
+    "num_question_entities": 3,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> awards was the latest <ent> game nominated for at <ent> <year>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 1,
+    "comparison_hits": 0,
+    "intersection_hits": 1,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 15,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|temporal_signal"
+  },
+  {
+    "benchmark_id": "mintaka_test_63690199",
+    "source_dataset": "mintaka",
+    "source_split": "test",
+    "source_id": "63690199",
+    "question_en_original": "Who produced the movie that's based on the Harry Potter book released in 2004?",
+    "question_translations": {
+      "ar": "من انتج الفيلم المقتبس من كتاب هاري بوتر الصادر في عام 2004؟",
+      "de": "Wer hat den Film produziert, der auf dem 2004 erschienenen „Harry Potter“-Buch basiert?",
+      "ja": "2004年にリリースされたハリー・ポッターの本に基づいて、映画を作りましたか？",
+      "hi": "2004 में रिलीज़ हुई हैरी पॉटर की किताब पर आधारित फिल्म का निर्माण किसने किया था?",
+      "pt": "Quem produziu o filme que foi baseado no livro de Harry Potter lançado em 2004?",
+      "es": "¿Quién produjo la película basada en el libro de Harry Potter lanzado en 2004?",
+      "it": "Chi ha prodotto il film basato sul libro di Harry Potter uscito nel 2004?",
+      "fr": "Qui a produit le film inspiré du livre Harry Potter sorti en 2004 ?"
+    },
+    "category": "books",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q8337",
+        "entity_type": "entity",
+        "label": "Harry Potter",
+        "mention": "Harry Potter",
+        "span": [
+          43,
+          55
+        ]
+      },
+      {
+        "name": "2004",
+        "entity_type": "date",
+        "label": "",
+        "mention": "2004",
+        "span": [
+          73,
+          77
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Chris Columbus, David Heyman, Mark Radcliffe",
+    "answer_entities": [
+      {
+        "name": "Q75079",
+        "label_en": "Chris Columbus",
+        "raw_label": {
+          "en": "Chris Columbus",
+          "ar": "كريس كولومبوس",
+          "de": "Chris Columbus",
+          "es": "Chris Columbus",
+          "fr": "Chris Columbus",
+          "hi": "क्रिस कोलंबस",
+          "it": "Chris Columbus",
+          "ja": "クリス・コロンバス",
+          "pt": "Chris Columbus"
+        }
+      },
+      {
+        "name": "Q319986",
+        "label_en": "David Heyman",
+        "raw_label": {
+          "en": "David Heyman",
+          "ar": "ديفيد هيمان",
+          "de": "David Heyman",
+          "es": "David Heyman",
+          "fr": "David Heyman",
+          "hi": null,
+          "it": "David Heyman",
+          "ja": "デヴィッド・ハイマン",
+          "pt": "David Heyman"
+        }
+      },
+      {
+        "name": "Q1900360",
+        "label_en": "Mark Radcliffe",
+        "raw_label": {
+          "en": "Mark Radcliffe",
+          "ar": null,
+          "de": "Mark Radcliffe",
+          "es": "Mark Radcliffe",
+          "fr": "Mark Radcliffe",
+          "hi": null,
+          "it": "Mark Radcliffe",
+          "ja": null,
+          "pt": null
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q75079",
+        "label_en": "Chris Columbus"
+      },
+      {
+        "name": "Q319986",
+        "label_en": "David Heyman"
+      },
+      {
+        "name": "Q1900360",
+        "label_en": "Mark Radcliffe"
+      }
+    ],
+    "gold_qids": [
+      "Q75079",
+      "Q319986",
+      "Q1900360"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 3,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> produced the movie that's based on the <ent> book released in <year>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 1,
+    "comparison_hits": 0,
+    "intersection_hits": 1,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 15,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|temporal_signal"
+  },
+  {
+    "benchmark_id": "mintaka_test_5bd63af8",
+    "source_dataset": "mintaka",
+    "source_split": "test",
+    "source_id": "5bd63af8",
+    "question_en_original": "Who were the first two senators to represent the latest state added to the Union?",
+    "question_translations": {
+      "ar": "من هما أول عضوان في مجلس الشيوخ اللذان مثلا آخر ولاية انضمت للاتحاد؟",
+      "de": "Wer waren die ersten beiden Senatoren, die den Staat repräsentierten, der zuletzt der Union beigetreten ist?",
+      "ja": "最新の連合に加えられた州を代表する代議士の最初の二人とは誰でしたか?",
+      "hi": "संघ में शामिल किए गए नवीनतम राज्य का प्रतिनिधित्व करने वाले पहले दो senators कौन थे?",
+      "pt": "Quem foram os dois primeiros senadores a representarem o último estado a ser incorporado à União?",
+      "es": "¿Quienes fueron los dos primeros senadores en representar el último estado agregado a la unión?",
+      "it": "Chi erano i primi due senatori a rappresentare l'ultimo Stato aggiunto all'Unione?",
+      "fr": "Qui furent les deux premiers sénateurs à représenter le dernier État ajouté à l’Union ?"
+    },
+    "category": "politics",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q15686806",
+        "entity_type": "entity",
+        "label": "senator",
+        "mention": "senators",
+        "span": [
+          23,
+          31
+        ]
+      },
+      {
+        "name": "Q30",
+        "entity_type": "entity",
+        "label": "United States of America",
+        "mention": "Union",
+        "span": [
+          75,
+          80
+        ]
+      },
+      {
+        "name": "1",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "first",
+        "span": [
+          13,
+          18
+        ]
+      },
+      {
+        "name": "2",
+        "entity_type": "cardinal",
+        "label": "",
+        "mention": "two",
+        "span": [
+          19,
+          22
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Hiram Fong and Oren E. Long",
+    "answer_entities": [
+      {
+        "name": "Q926441",
+        "label_en": "Hiram Fong",
+        "raw_label": {
+          "en": "Hiram Fong",
+          "ar": "حيرام فونغ",
+          "de": "Hiram Fong",
+          "es": "Hiram Fong",
+          "fr": "Hiram Fong",
+          "hi": null,
+          "it": "Hiram Fong",
+          "ja": "ハイラム・フォン",
+          "pt": "Hiram Fong"
+        }
+      },
+      {
+        "name": "Q715129",
+        "label_en": "Oren E. Long",
+        "raw_label": {
+          "en": "Oren E. Long",
+          "ar": "اورين إي. لونغ",
+          "de": "Oren E. Long",
+          "es": "Oren E. Long",
+          "fr": "Oren Long",
+          "hi": null,
+          "it": "Oren E. Long",
+          "ja": "オーレン・E・ロング",
+          "pt": "Oren E. Long"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q926441",
+        "label_en": "Hiram Fong"
+      },
+      {
+        "name": "Q715129",
+        "label_en": "Oren E. Long"
+      }
+    ],
+    "gold_qids": [
+      "Q926441",
+      "Q715129"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 4,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> were the first two senators to represent the latest state added to the <ent>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 2,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 2,
+    "reconstructability_score_v2": 15,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|temporal_signal"
+  },
+  {
+    "benchmark_id": "mintaka_train_08cbd2e7",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "08cbd2e7",
+    "question_en_original": "Which wives of US presidents were also mothers of US presidents?",
+    "question_translations": {
+      "ar": "من هن زوجات رؤساء الجمهورية اللواتي أصبحن لاحقًا والدات رؤساء الجمهورية؟",
+      "de": "Welche Ehefrauen von US-Präsidenten waren auch Mütter von US-Präsidenten?",
+      "ja": "アメリカ大統領の母でもあったアメリカ大統領の妻は誰？",
+      "hi": "अमेरीकी राष्ट्रपति की कौन-सी पत्नियाँ अमेरीकी राष्ट्रपतियों की माएँ भी थी?",
+      "pt": "Que esposas de presidentes dos Estados Unidos também foram mães de presidentes dos Estados Unidos?",
+      "es": "¿Qué esposas de presidentes de EE. UU. también fueron madres de presidentes de EE. UU.?",
+      "it": "Quali mogli di Presidenti degli Stati Uniti sono state anche madri di Presidenti degli Stati Uniti?",
+      "fr": "Quelles épouses de présidents américains étaient également mères de présidents américains ?"
+    },
+    "category": "history",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q30",
+        "entity_type": "entity",
+        "label": "United States of America",
+        "mention": "US",
+        "span": [
+          50,
+          52
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Abagail Adams, Barbara Bush",
+    "answer_entities": [
+      {
+        "name": "Q206191",
+        "label_en": "Abigail Adams",
+        "raw_label": {
+          "en": "Abigail Adams",
+          "ar": "أبيجيل آدامز",
+          "de": "Abigail Adams",
+          "es": "Abigail Adams",
+          "fr": "Abigail Adams",
+          "hi": null,
+          "it": "Abigail Adams",
+          "ja": "アビゲイル・アダムズ",
+          "pt": "Abigail Adams"
+        }
+      },
+      {
+        "name": "Q190628",
+        "label_en": "Barbara Bush",
+        "raw_label": {
+          "en": "Barbara Bush",
+          "ar": "باربرا بوش",
+          "de": "Barbara Bush",
+          "es": "Barbara Bush",
+          "fr": "Barbara Bush",
+          "hi": null,
+          "it": "Barbara Bush",
+          "ja": "バーバラ・ピアーズ・ブッシュ",
+          "pt": "Barbara Pierce Bush"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q206191",
+        "label_en": "Abigail Adams"
+      },
+      {
+        "name": "Q190628",
+        "label_en": "Barbara Bush"
+      }
+    ],
+    "gold_qids": [
+      "Q206191",
+      "Q190628"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> wives of us presidents were also mothers of us presidents?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 2,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 15,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|multi_constraint_signal"
+  },
+  {
+    "benchmark_id": "mintaka_train_29e5bf22",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "29e5bf22",
+    "question_en_original": "Who were the playable characters of the fourth Grand Theft Auto game and its expansions?",
+    "question_translations": {
+      "ar": "ما الشخصيات التي يمكن استخدامها للعب في الجزء الرابع من لعبة \"جراند ثفت أوتو\" وحِزمها التوسيعية؟",
+      "de": "Wer waren die spielbaren Charaktere im vierten \"Grand Theft Auto\"-Spiel und seiner Erweiterungen?",
+      "ja": "4作目のグランド・セフト・オートゲームとその拡張版で、プレイできるキャラクターは誰?",
+      "hi": "चौथे ग्रैंड थेफ़्ट ऑटो गेम और उसके विस्तार में खेले जाने वाले पात्र कौन से हैं?",
+      "pt": "Quem eram os personagens jogáveis do quarto jogo de Grand Theft Auto e suas expansões?",
+      "es": "¿Quénes eran los personajes jugables en el cuarto juego de Grand Theft Auto y sus expansiones?",
+      "it": "Chi erano i personaggi giocabili del quarto gioco della serie Grand Theft Auto e sue espansioni?",
+      "fr": "Qui étaient les personnages jouables du quatrième jeu Grand Theft Auto et de ses extensions ?"
+    },
+    "category": "videogames",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q132730",
+        "entity_type": "entity",
+        "label": "Grand Theft Auto",
+        "mention": "Grand Theft Auto",
+        "span": [
+          47,
+          63
+        ]
+      },
+      {
+        "name": "4",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "fourth",
+        "span": [
+          40,
+          46
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Niko Bellic, Johnny Klebitz, Luis Fernando Lopez",
+    "answer_entities": [
+      {
+        "name": "Q1774685",
+        "label_en": "Niko Bellic",
+        "raw_label": {
+          "en": "Niko Bellic",
+          "ar": "نيكو بيليك",
+          "de": "Niko Bellic",
+          "es": "Niko Bellic",
+          "fr": "Nikolaj Belić",
+          "hi": null,
+          "it": "Niko Bellic",
+          "ja": "ニコ・ベリック",
+          "pt": "Niko Bellic"
+        }
+      },
+      {
+        "name": "Q3182928",
+        "label_en": "Johnny Klebitz",
+        "raw_label": {
+          "en": "Johnny Klebitz",
+          "ar": null,
+          "de": "Johnny Klebitz",
+          "es": null,
+          "fr": "Johnny Klebitz",
+          "hi": null,
+          "it": "Johnny Klebitz",
+          "ja": null,
+          "pt": null
+        }
+      },
+      {
+        "name": "Q2270469",
+        "label_en": "Luis Fernando Lopez",
+        "raw_label": {
+          "en": "Luis Fernando Lopez",
+          "ar": null,
+          "de": "Luis Fernando Lopez",
+          "es": null,
+          "fr": "Luis Lopez",
+          "hi": null,
+          "it": null,
+          "ja": null,
+          "pt": null
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q1774685",
+        "label_en": "Niko Bellic"
+      },
+      {
+        "name": "Q3182928",
+        "label_en": "Johnny Klebitz"
+      },
+      {
+        "name": "Q2270469",
+        "label_en": "Luis Fernando Lopez"
+      }
+    ],
+    "gold_qids": [
+      "Q1774685",
+      "Q3182928",
+      "Q2270469"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 3,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> were the playable characters of the fourth <ent> game and its expansions?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 1,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 14,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_05e10f57",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "05e10f57",
+    "question_en_original": "Where was the first president of the United States born?",
+    "question_translations": {
+      "ar": "أين ولد الرئيس الأول للولايات المتحدة؟",
+      "de": "Wo ist der erste Präsident der USA geboren?",
+      "ja": "初代米国大統領はどこで生まれましたか？",
+      "hi": "अमेरिका के पहले राष्ट्रपति का जन्म कहाँ हुआ था?",
+      "pt": "Onde nasceu o primeiro presidente dos Estados Unidos?",
+      "es": "¿Dónde nació el primer presidente de los Estados Unidos?",
+      "it": "Dove era nato il primo presidente degli Stati Uniti?",
+      "fr": "Où est né le premier président des États-Unis ?"
+    },
+    "category": "history",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q30",
+        "entity_type": "entity",
+        "label": "United States of America",
+        "mention": "United States",
+        "span": [
+          37,
+          50
+        ]
+      },
+      {
+        "name": "1",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "first",
+        "span": [
+          14,
+          19
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Westmoreland County, Virginia",
+    "answer_entities": [
+      {
+        "name": "Q494413",
+        "label_en": "Westmoreland County",
+        "raw_label": {
+          "en": "Westmoreland County",
+          "ar": "مقاطعة ويستمورلاند",
+          "de": "Westmoreland County",
+          "es": "Condado de Westmoreland",
+          "fr": "comté de Westmoreland",
+          "hi": null,
+          "it": "contea di Westmoreland",
+          "ja": "ウェストモアランド郡",
+          "pt": "Condado de Westmoreland"
+        }
+      },
+      {
+        "name": "Q1370",
+        "label_en": "Virginia",
+        "raw_label": {
+          "en": "Virginia",
+          "ar": "فرجينيا",
+          "de": "Virginia",
+          "es": "Virginia",
+          "fr": "Virginie",
+          "hi": "वर्जीनिया",
+          "it": "Virginia",
+          "ja": "バージニア州",
+          "pt": "Virgínia"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q494413",
+        "label_en": "Westmoreland County"
+      },
+      {
+        "name": "Q1370",
+        "label_en": "Virginia"
+      }
+    ],
+    "gold_qids": [
+      "Q494413",
+      "Q1370"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the first president of the <ent> born?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 1,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 14,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|temporal_signal"
+  },
+  {
+    "benchmark_id": "mintaka_train_b9354cf6",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "b9354cf6",
+    "question_en_original": "Which city did the band that wrote \"Shiny Happy People\" come from?",
+    "question_translations": {
+      "ar": "في أي مدينة أتت الفرقة التي كتبت \"Shiny Happy People\"؟",
+      "de": "Aus welcher Stadt kam die Band, die „Shiny Happy People” geschrieben hat?",
+      "ja": "\"Shiny Happy Peopleを書いた楽隊はどの都市からのですか？\"",
+      "hi": "\"शाइनी हैप्पी पीपल\" लिखने वाला बैंड कौन से शहर से आया था?",
+      "pt": "De que cidade veio a banda que escreveu Shiny Happy People?",
+      "es": "¿De qué ciudad venía la banda que escribió Shiny Happy People?",
+      "it": "Da quale città proveniva la band che ha scritto \"Shiny Happy People\"?",
+      "fr": "De quelle ville vient le groupe qui a écrit « Shiny Happy People » ?"
+    },
+    "category": "music",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q2306475",
+        "entity_type": "entity",
+        "label": "Shiny Happy People",
+        "mention": "\"Shiny Happy People\"",
+        "span": [
+          35,
+          55
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Athens, GA",
+    "answer_entities": [
+      {
+        "name": "Q203263",
+        "label_en": "Athens",
+        "raw_label": {
+          "en": "Athens",
+          "ar": "أثينا",
+          "de": "Athens",
+          "es": "Athens",
+          "fr": "Athens",
+          "hi": "एथेंस",
+          "it": "Athens",
+          "ja": "アセンズ",
+          "pt": "Athens"
+        }
+      },
+      {
+        "name": "Q1428",
+        "label_en": "Georgia",
+        "raw_label": {
+          "en": "Georgia",
+          "ar": "جورجيا",
+          "de": "Georgia",
+          "es": "Georgia",
+          "fr": "Géorgie",
+          "hi": "जॉर्जिया (अमरीकी राज्य)",
+          "it": "Georgia",
+          "ja": "ジョージア州",
+          "pt": "Geórgia"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q203263",
+        "label_en": "Athens"
+      },
+      {
+        "name": "Q1428",
+        "label_en": "Georgia"
+      }
+    ],
+    "gold_qids": [
+      "Q203263",
+      "Q1428"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> city did the band that wrote <quote> come from?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 2,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 14,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|multi_constraint_signal"
+  },
+  {
+    "benchmark_id": "mintaka_validation_304b59eb",
+    "source_dataset": "mintaka",
+    "source_split": "validation",
+    "source_id": "304b59eb",
+    "question_en_original": "Who was the top scorer of the Copa America tournament this year?",
+    "question_translations": {
+      "ar": "من هو هداف بطولة كوبا أمريكا لهذا العام؟",
+      "de": "Wer war der beste Torschütze des diesjährigen Copa America-Turniers?",
+      "ja": "今年のコパ・アメリカで得点王だったのは?",
+      "hi": "इस साल के Copa America टूर्नामेंट का शीर्ष स्कोरर कौन था?",
+      "pt": "Qual foi o maior goleador da Copa América desse ano?",
+      "es": "¿Quién fue el máximo goleador de la Copa América este año?",
+      "it": "Chi è stato il capocannoniere della Coppa America di quest'anno?",
+      "fr": "Qui était le meilleur buteur du tournoi de la Copa America cette année ?"
+    },
+    "category": "sports",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q178750",
+        "entity_type": "entity",
+        "label": "Copa América",
+        "mention": "Copa America",
+        "span": [
+          30,
+          42
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Lionel Messi, Luis Diaz",
+    "answer_entities": [
+      {
+        "name": "Q615",
+        "label_en": "Lionel Messi",
+        "raw_label": {
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي",
+          "de": "Lionel Messi",
+          "es": "Lionel Messi",
+          "fr": "Lionel Messi",
+          "hi": "लियोनेल मेस्सी",
+          "it": "Lionel Messi",
+          "ja": "リオネル・メッシ",
+          "pt": "Lionel Messi"
+        }
+      },
+      {
+        "name": "Q1031899",
+        "label_en": "Luis Díaz",
+        "raw_label": {
+          "en": "Luis Díaz",
+          "ar": "لويس دياز",
+          "de": "Luis Díaz",
+          "es": "Luis Díaz",
+          "fr": "Luis Díaz",
+          "hi": null,
+          "it": null,
+          "ja": "ルイス・ディアス",
+          "pt": "Luis Díaz"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q615",
+        "label_en": "Lionel Messi"
+      },
+      {
+        "name": "Q1031899",
+        "label_en": "Luis Díaz"
+      }
+    ],
+    "gold_qids": [
+      "Q615",
+      "Q1031899"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the top scorer of the <ent> tournament this year?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 1,
+    "intersection_hits": 0,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 14,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|comparison_signal"
+  },
+  {
+    "benchmark_id": "mintaka_train_91c7335e",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "91c7335e",
+    "question_en_original": "Who are the love interests in Mass Effect 1?",
+    "question_translations": {
+      "ar": "ما هي الخيارات الرومنسية في \"ماس إيفيكت 1\"؟",
+      "de": "Wer sind die Love Interests in Mass Effect 1?",
+      "ja": "Mass Effect 1で恋愛可能なのは誰ですか?",
+      "hi": "Mass Effect 1 में प्रेम रुचियां कौन हैं?",
+      "pt": "Quem eram os interesses amorosos em Mass Effect 1?",
+      "es": "¿Quiénes son los enamorados en Mass Effect 1?",
+      "it": "Con quali personaggi puoi avere una storia su Mass Effect 1?",
+      "fr": "Comment s’appellent les amoureux dans Mass Effect 1 ?"
+    },
+    "category": "videogames",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q275960",
+        "entity_type": "entity",
+        "label": "Mass Effect",
+        "mention": "Mass Effect 1",
+        "span": [
+          30,
+          43
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Kaidan Alenko, Ashley Williams, Liara T'Soni",
+    "answer_entities": [
+      {
+        "name": "Q16568495",
+        "label_en": "Kaidan Alenko",
+        "raw_label": {
+          "en": "Kaidan Alenko",
+          "ar": null,
+          "de": null,
+          "es": null,
+          "fr": null,
+          "hi": null,
+          "it": "Kaidan Alenko",
+          "ja": null,
+          "pt": null
+        }
+      },
+      {
+        "name": "Q16528918",
+        "label_en": "Ashley Williams",
+        "raw_label": {
+          "en": "Ashley Williams",
+          "ar": null,
+          "de": "Ashley Williams",
+          "es": null,
+          "fr": null,
+          "hi": null,
+          "it": "Ashley Williams",
+          "ja": null,
+          "pt": null
+        }
+      },
+      {
+        "name": "Q16572370",
+        "label_en": "Liara T'Soni",
+        "raw_label": {
+          "en": "Liara T'Soni",
+          "ar": null,
+          "de": null,
+          "es": null,
+          "fr": "Liara T'Soni",
+          "hi": null,
+          "it": "Liara T'Soni",
+          "ja": null,
+          "pt": null
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q16568495",
+        "label_en": "Kaidan Alenko"
+      },
+      {
+        "name": "Q16528918",
+        "label_en": "Ashley Williams"
+      },
+      {
+        "name": "Q16572370",
+        "label_en": "Liara T'Soni"
+      }
+    ],
+    "gold_qids": [
+      "Q16568495",
+      "Q16528918",
+      "Q16572370"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 3,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> are the love interests in <ent> <num>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_b5103288",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "b5103288",
+    "question_en_original": "Where was Los Angeles Angels' two-way star born?",
+    "question_translations": {
+      "ar": "أين ولد نجم لوس أنجلوس آنجيلز في الدفاع والهجوم؟",
+      "de": "Wo wurde der Zwei-Wege-Star der Los Angeles Angels geboren?",
+      "ja": "ロサンゼルス・エンゼルスの二刀流のスター選手はどこで生まれましたか?",
+      "hi": "Los Angeles Angels का टू-वे स्टार का जन्म कहाँ हुआ था?",
+      "pt": "Onde nasceu o duplo astro do Los Angeles Angels?",
+      "es": "¿Dónde nació el estrella two-way de Los Angeles Angels?",
+      "it": "Dove è nata il grande two-way player dei Los Angeles Angels?",
+      "fr": "Où est né le meilleur joueur bidirectionnel des Angels de Los Angeles ?"
+    },
+    "category": "sports",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q743309",
+        "entity_type": "entity",
+        "label": "Los Angeles Angels",
+        "mention": "Los Angeles Angels'",
+        "span": [
+          10,
+          29
+        ]
+      },
+      {
+        "name": "2",
+        "entity_type": "cardinal",
+        "label": "",
+        "mention": "two",
+        "span": [
+          30,
+          33
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Oshu, Iwate, Japan",
+    "answer_entities": [
+      {
+        "name": "Q386052",
+        "label_en": "Ōshū",
+        "raw_label": {
+          "en": "Ōshū",
+          "ar": "أوشو، إيواته",
+          "de": "Ōshū",
+          "es": "Ōshū (Iwate)",
+          "fr": "Ōshū (Iwate)",
+          "hi": "ओशु",
+          "it": "Ōshū",
+          "ja": "奥州市",
+          "pt": "Oshu"
+        }
+      },
+      {
+        "name": "Q1206018",
+        "label_en": "Iwate",
+        "raw_label": {
+          "en": "Iwate",
+          "ar": "إيواته",
+          "de": "Iwate",
+          "es": "Iwate",
+          "fr": "Iwate",
+          "hi": null,
+          "it": "Iwate",
+          "ja": "岩手町",
+          "pt": "Iwate"
+        }
+      },
+      {
+        "name": "Q17",
+        "label_en": "Japan",
+        "raw_label": {
+          "en": "Japan",
+          "ar": "اليابان",
+          "de": "Japan",
+          "es": "Japón",
+          "fr": "Japon",
+          "hi": "जापान",
+          "it": "Giappone",
+          "ja": "日本",
+          "pt": "Japão"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q386052",
+        "label_en": "Ōshū"
+      },
+      {
+        "name": "Q1206018",
+        "label_en": "Iwate"
+      },
+      {
+        "name": "Q17",
+        "label_en": "Japan"
+      }
+    ],
+    "gold_qids": [
+      "Q386052",
+      "Q1206018",
+      "Q17"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 3,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was <ent>' two-way star born?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_test_655db184",
+    "source_dataset": "mintaka",
+    "source_split": "test",
+    "source_id": "655db184",
+    "question_en_original": "Who was the pitcher for the winning team in the first World Series?",
+    "question_translations": {
+      "ar": "مَن كان الرامي في الفريق الرابح في أولى نهائيات كأس العالم؟",
+      "de": "Wer war der Pitcher des Siegerteams der ersten World Series?",
+      "ja": "第1回のワールドシリーズで優勝したチームのピッチャーは誰だった？",
+      "hi": "पहले वर्ल्ड सीरीज में जीतने वाली टीम का पिचर कौन था?",
+      "pt": "Quem foi o arremessador do time vencedor no primeiro World Series?",
+      "es": "¿Quién fue el lanzador del equipo ganador en la primera Serie Mundial?",
+      "it": "Chi è stato il lanciatore della squadra vincente nella prima World Series?",
+      "fr": "Comment s’appelle le lanceur de l’équipe qui a remporté la première Série mondiale ?"
+    },
+    "category": "sports",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q265538",
+        "entity_type": "entity",
+        "label": "World Series",
+        "mention": "World Series",
+        "span": [
+          54,
+          66
+        ]
+      },
+      {
+        "name": "1",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "first",
+        "span": [
+          48,
+          53
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Bill Dinneen and Cy Young",
+    "answer_entities": [
+      {
+        "name": "Q4908773",
+        "label_en": "Bill Dinneen",
+        "raw_label": {
+          "en": "Bill Dinneen",
+          "ar": null,
+          "de": "Bill Dinneen",
+          "es": "Bill Dinneen",
+          "fr": "Bill Dinneen",
+          "hi": null,
+          "it": "Bill Dinneen",
+          "ja": "ビル・ディニーン",
+          "pt": null
+        }
+      },
+      {
+        "name": "Q362264",
+        "label_en": "Cy Young",
+        "raw_label": {
+          "en": "Cy Young",
+          "ar": "ساي يونغ",
+          "de": "Cy Young",
+          "es": "Cy Young",
+          "fr": "Cy Young",
+          "hi": null,
+          "it": "Cy Young",
+          "ja": "サイ・ヤング",
+          "pt": "Cy Young"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q4908773",
+        "label_en": "Bill Dinneen"
+      },
+      {
+        "name": "Q362264",
+        "label_en": "Cy Young"
+      }
+    ],
+    "gold_qids": [
+      "Q4908773",
+      "Q362264"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the pitcher for the winning team in the first <ent>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 1,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|temporal_signal"
+  },
+  {
+    "benchmark_id": "mintaka_train_19f244a1",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "19f244a1",
+    "question_en_original": "Who was the wife of the 10th US president?",
+    "question_translations": {
+      "ar": "من كانت زوجة الرئيس الأمريكي العاشر؟",
+      "de": "Wer war die Ehefrau des 10. US-Präsidenten?",
+      "ja": "第10代アメリカ大統領の妻は誰ですか？",
+      "hi": "10वें US राष्ट्रपति की पत्नी का नाम क्या था?",
+      "pt": "Quem foi a esposa do 10o. Presidente dos Estados Unidos?",
+      "es": "¿Quién fue la mujer del décimo presidente de Estados Unidos?",
+      "it": "Chi era la moglie del 10° Presidente degli Stati Uniti?",
+      "fr": "Qui était la femme du 10e président des États-Unis ?"
+    },
+    "category": "politics",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q11696",
+        "entity_type": "entity",
+        "label": "President of the United States",
+        "mention": "US president",
+        "span": [
+          29,
+          41
+        ]
+      },
+      {
+        "name": "10",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "10th",
+        "span": [
+          24,
+          28
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Letitia & Julia Tyler",
+    "answer_entities": [
+      {
+        "name": "Q24790",
+        "label_en": "Letitia Christian Tyler",
+        "raw_label": {
+          "en": "Letitia Christian Tyler",
+          "ar": "ليتيسيا تايلر",
+          "de": "Letitia Tyler",
+          "es": "Letitia Christian Tyler",
+          "fr": "Letitia Tyler",
+          "hi": null,
+          "it": "Letitia Tyler",
+          "ja": "レティティア・タイラー",
+          "pt": "Letitia Christian Tyler"
+        }
+      },
+      {
+        "name": "Q234525",
+        "label_en": "Julia Gardiner Tyler",
+        "raw_label": {
+          "en": "Julia Gardiner Tyler",
+          "ar": "جوليا تايلر",
+          "de": "Julia Tyler",
+          "es": "Julia Gardiner Tyler",
+          "fr": "Julia Tyler",
+          "hi": null,
+          "it": "Julia Tyler",
+          "ja": "ジュリア・ガーディナー・タイラー",
+          "pt": "Julia Tyler"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q24790",
+        "label_en": "Letitia Christian Tyler"
+      },
+      {
+        "name": "Q234525",
+        "label_en": "Julia Gardiner Tyler"
+      }
+    ],
+    "gold_qids": [
+      "Q24790",
+      "Q234525"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the wife of the 10th us president?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_76dc240c",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "76dc240c",
+    "question_en_original": "What platforms can the first Animal Crossing mobile game be played on?",
+    "question_translations": {
+      "ar": "ما هي المنصات التي يمكن لعب أول لعبة للهاتف المحمول من أنيمال كروسينغ عليها؟",
+      "de": "Auf welcher Plattform kann das erste „Animal Crossing“-Handyspiel gespielt werden?",
+      "ja": "初代『どうぶつの森』のモバイルゲームは、どのようなプラットフォームでプレイできますか？",
+      "hi": "पहला एनिमल क्रॉसिंग मोबाइल गेम किस प्लेटफॉर्म पर खेला जा सकता है?",
+      "pt": "O primeiro jogo Animal Crossing mobile pode ser jogado em quais plataformas?",
+      "es": "¿En qué plataformas se puede jugar el primer juego de Animal Crossing para móviles?",
+      "it": "Su quale piattaforma si può giocare al primo gioco per cellulare di Animal Crossing?",
+      "fr": "Sur quelles plateformes le premier jeu d’Animal Crossing sur téléphone portable peut-il se jouer ?"
+    },
+    "category": "videogames",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q1139803",
+        "entity_type": "entity",
+        "label": "Animal Crossing",
+        "mention": "Animal Crossing",
+        "span": [
+          29,
+          44
+        ]
+      },
+      {
+        "name": "1",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "first",
+        "span": [
+          23,
+          28
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Android, iOS",
+    "answer_entities": [
+      {
+        "name": "Q94",
+        "label_en": "Android",
+        "raw_label": {
+          "en": "Android",
+          "ar": "أندرويد",
+          "de": "Android",
+          "es": "Android",
+          "fr": "Android",
+          "hi": "Android",
+          "it": "Android",
+          "ja": "Android",
+          "pt": "Android"
+        }
+      },
+      {
+        "name": "Q48493",
+        "label_en": "iOS",
+        "raw_label": {
+          "en": "iOS",
+          "ar": "آي أو إس",
+          "de": "iOS",
+          "es": "iOS",
+          "fr": "iOS",
+          "hi": "iOS",
+          "it": "iOS",
+          "ja": "iOS",
+          "pt": "iOS"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q94",
+        "label_en": "Android"
+      },
+      {
+        "name": "Q48493",
+        "label_en": "iOS"
+      }
+    ],
+    "gold_qids": [
+      "Q94",
+      "Q48493"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> platforms can the first <ent> mobile game be played on?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 1,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 1,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like|temporal_signal"
+  },
+  {
+    "benchmark_id": "mintaka_train_92b34ba1",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "92b34ba1",
+    "question_en_original": "Who were the children of India's only female prime minister?",
+    "question_translations": {
+      "ar": "مَن هم أبناء رئيسة الوزراء الوحيدة في تاريخ الهند؟",
+      "de": "Wer waren die Kinder der einzigen Premierministerin von Indien?",
+      "ja": "インドの唯一の女性の首相の子供は誰ですか？",
+      "hi": "भारत के एकमात्र महिला पंतप्रधान के बच्चे कौन थे?",
+      "pt": "Quem foram os filhos da única Primeira Ministra da Índia?",
+      "es": "¿Quiénes fueron los hijos de la única primer ministra de la India?",
+      "it": "Chi erano i figli dell'unico primo ministro donna indiano?",
+      "fr": "Qui étaient les enfants de la seule femme Première ministre de l’Inde ?"
+    },
+    "category": "politics",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q668",
+        "entity_type": "entity",
+        "label": "India",
+        "mention": "India's",
+        "span": [
+          25,
+          32
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Rajiv Gandhi and Sanjay Gandhi",
+    "answer_entities": [
+      {
+        "name": "Q4593",
+        "label_en": "Rajiv Gandhi",
+        "raw_label": {
+          "en": "Rajiv Gandhi",
+          "ar": "راجيف غاندي",
+          "de": "Rajiv Gandhi",
+          "es": "Rajiv Gandhi",
+          "fr": "Rajiv Gandhi",
+          "hi": "राजीव गाँधी",
+          "it": "Rajiv Gandhi",
+          "ja": "ラジーヴ・ガンディー",
+          "pt": "Rajiv Gandhi"
+        }
+      },
+      {
+        "name": "Q730045",
+        "label_en": "Sanjay Gandhi",
+        "raw_label": {
+          "en": "Sanjay Gandhi",
+          "ar": "سانجاي غاندي",
+          "de": "Sanjay Gandhi",
+          "es": "Sanjay Gandhi",
+          "fr": "Sanjay Gandhi",
+          "hi": "संजय गाँधी",
+          "it": "Sanjay Gandhi",
+          "ja": "サンジャイ・ガーンディー",
+          "pt": null
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q4593",
+        "label_en": "Rajiv Gandhi"
+      },
+      {
+        "name": "Q730045",
+        "label_en": "Sanjay Gandhi"
+      }
+    ],
+    "gold_qids": [
+      "Q4593",
+      "Q730045"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> were the children of <ent>'s only female prime minister?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_af82fcbd",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "af82fcbd",
+    "question_en_original": "Who was in charge of the screenplay on the movie that was based on the third book of Lord of the Rings?",
+    "question_translations": {
+      "ar": "من كان مسؤولاً عن سيناريو الفيلم المقتبس من الكتاب الثالث في سلسلة \"سيد الخواتم\"؟",
+      "de": "Wer war fedeführend beim Drehbuch der Verfilmung von Herr der Ringe?",
+      "ja": "Lord of the Ringsの３番目の本に基づいて作る映画の画面を担当するのは誰ですか？",
+      "hi": "लाॅर्ड ऑफ द रिंग्स की तीसरी किताब पर आधारित फ़िल्म की पटकथा का प्रभारी कौन था?",
+      "pt": "Quem era o responsável pelo roteiro do filme que foi baseado no terceiro livro de O Senhor dos Anéis?",
+      "es": "¿Quién fue el responsable por el guión de la película basada en el tercer libro de Señor de Los Anillos?",
+      "it": "Chi è stato incaricato di scrivere la sceneggiatura per il film basato sul terzo libro de \"Il signore degli anelli\"?",
+      "fr": "Qui était en charge du scénario du film inspiré du troisième livre du Seigneur des anneaux ?"
+    },
+    "category": "books",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q15228",
+        "entity_type": "entity",
+        "label": "The Lord of the Rings",
+        "mention": "Lord of the Rings",
+        "span": [
+          85,
+          102
+        ]
+      },
+      {
+        "name": "3",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "third",
+        "span": [
+          71,
+          76
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Frank Walsh, Philippa Boyens, Peter Jackson",
+    "answer_entities": [
+      {
+        "name": "Q116854",
+        "label_en": "Philippa Boyens",
+        "raw_label": {
+          "en": "Philippa Boyens",
+          "ar": "فيليبا بوينز",
+          "de": "Philippa Boyens",
+          "es": "Philippa Boyens",
+          "fr": "Philippa Boyens",
+          "hi": null,
+          "it": "Philippa Boyens",
+          "ja": "フィリッパ・ボウエン",
+          "pt": "Philippa Boyens"
+        }
+      },
+      {
+        "name": "Q4465",
+        "label_en": "Peter Jackson",
+        "raw_label": {
+          "en": "Peter Jackson",
+          "ar": "بيتر جاكسون",
+          "de": "Peter Jackson",
+          "es": "Peter Jackson",
+          "fr": "Peter Jackson",
+          "hi": "पीटर जैक्सन",
+          "it": "Peter Jackson",
+          "ja": "ピーター・ジャクソン",
+          "pt": "Peter Jackson"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q116854",
+        "label_en": "Philippa Boyens"
+      },
+      {
+        "name": "Q4465",
+        "label_en": "Peter Jackson"
+      }
+    ],
+    "gold_qids": [
+      "Q116854",
+      "Q4465"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was in charge of the screenplay on the movie that was based on the third book of <ent> of the <ent>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 1,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_d8a4fd32",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "d8a4fd32",
+    "question_en_original": "What were the two initial continents in the video game that Blizzard Entertainment released on November 23, 2004?",
+    "question_translations": {
+      "ar": "ما القارتان التي احتوت عليهما لعبة الفيديو التي أصدرتها \"بليزارد إنترتانمينت\" بتاريخ 23 نوفمبر 2004؟",
+      "de": "Welches waren die beiden ersten Kontinente in dem Videospiel, das Blizzard Entertainment am 23. November 2004 veröffentlichte?",
+      "ja": "\"2004年11月23日にブリザード・エンターテインメントより発売されたビデオゲームの中の最初の二つの大陸は何ですか?\"",
+      "hi": "उस वीडियो गेम कौन से दो प्रारंभिक महाद्वीप थे जिसे 23 नवंबर, 2004 में ब्लिज़र्ड एंटर्टेंमेंट ने रिलीज़ किया?",
+      "pt": "Quais foram os dois continentes iniciais no video game que a Blizzard Entertainment lançou em 23 de novembro de 2004?",
+      "es": "¿Cuáles fueron los primeros dos continentes que tuvo el video juego que Blizzard Entertainment sacó el 23 noviembre de 2004?",
+      "it": "Quali erano i due continenti iniziali nel video gioco che Blizzard Entertainment ha rilasciato il 23 Novembre 2004?",
+      "fr": "Quels étaient les deux continents initiaux dans le jeu vidéo que Blizzard Entertainment a sorti le 23 novembre 2004 ?"
+    },
+    "category": "videogames",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q178824",
+        "entity_type": "entity",
+        "label": "Blizzard Entertainment",
+        "mention": "Blizzard Entertainment",
+        "span": [
+          60,
+          82
+        ]
+      },
+      {
+        "name": "2",
+        "entity_type": "cardinal",
+        "label": "",
+        "mention": "two",
+        "span": [
+          14,
+          17
+        ]
+      },
+      {
+        "name": "2004-11-23",
+        "entity_type": "date",
+        "label": "",
+        "mention": "November 23, 2004",
+        "span": [
+          95,
+          112
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Kalimdor, Eastern Kingdoms",
+    "answer_entities": [
+      {
+        "name": "Q850186",
+        "label_en": "Kalimdor",
+        "raw_label": {
+          "en": "Kalimdor",
+          "ar": null,
+          "de": null,
+          "es": null,
+          "fr": null,
+          "hi": null,
+          "it": "Kalimdor",
+          "ja": null,
+          "pt": null
+        }
+      },
+      {
+        "name": "Q849986",
+        "label_en": "Eastern Kingdoms",
+        "raw_label": {
+          "en": "Eastern Kingdoms",
+          "ar": null,
+          "de": null,
+          "es": null,
+          "fr": null,
+          "hi": null,
+          "it": "Regni Orientali",
+          "ja": null,
+          "pt": null
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q850186",
+        "label_en": "Kalimdor"
+      },
+      {
+        "name": "Q849986",
+        "label_en": "Eastern Kingdoms"
+      }
+    ],
+    "gold_qids": [
+      "Q850186",
+      "Q849986"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 3,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> were the two initial continents in the video game that <ent> released on <ent> <num>, <year>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 1,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_ec2f1490",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "ec2f1490",
+    "question_en_original": "What Disney characters were Sora's best friends and his quest companions?",
+    "question_translations": {
+      "ar": "من هم شخصيات ديزني التي كانت أفضل أصدقاء لسورا ورفاقه في البحث؟",
+      "de": "Welche Disney-Figuren waren Soras beste Freunde und seine Wegbegleiter?",
+      "ja": "ソラの親友で、冒険仲間だったディズニーキャラクターは?",
+      "hi": "डिसनी के किरदारों में से कौन सोरा के सबसे अच्छे दोस्त और उसके खोजी साथीदार थे?",
+      "pt": "Quais personagens da Disney eram os melhores amigos de Sora e seus companheiros de jornada?",
+      "es": "¿Qué personajes de Disney eran los mejores amigos de Sora y sus compañeros de búsqueda?",
+      "it": "Quali personaggi della Disney erano i migliori amici di Sora e i suoi compagni di missione?",
+      "fr": "Quels personnages Disney étaient les meilleurs amis de Sora et ses compagnons de quête ?"
+    },
+    "category": "videogames",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q7414",
+        "entity_type": "entity",
+        "label": "The Walt Disney Company",
+        "mention": "Disney",
+        "span": [
+          5,
+          11
+        ]
+      },
+      {
+        "name": "Q2089970",
+        "entity_type": "entity",
+        "label": "Sora",
+        "mention": "Sora's",
+        "span": [
+          28,
+          34
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Donald Duck and Goofy",
+    "answer_entities": [
+      {
+        "name": "Q6550",
+        "label_en": "Donald Duck",
+        "raw_label": {
+          "en": "Donald Duck",
+          "ar": "بطوط",
+          "de": "Donald Duck",
+          "es": "Pato Donald",
+          "fr": "Donald Duck",
+          "hi": "डोनाल्ड डक",
+          "it": "Paperino",
+          "ja": "ドナルドダック",
+          "pt": "Pato Donald"
+        }
+      },
+      {
+        "name": "Q111135",
+        "label_en": "Goofy",
+        "raw_label": {
+          "en": "Goofy",
+          "ar": "بندق",
+          "de": "Goofy",
+          "es": "Goofy",
+          "fr": "Dingo",
+          "hi": null,
+          "it": "Pippo",
+          "ja": "グーフィー",
+          "pt": "Pateta"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q6550",
+        "label_en": "Donald Duck"
+      },
+      {
+        "name": "Q111135",
+        "label_en": "Goofy"
+      }
+    ],
+    "gold_qids": [
+      "Q6550",
+      "Q111135"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> characters were <ent>'s best friends and his quest companions?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 1,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_validation_678c0c86",
+    "source_dataset": "mintaka",
+    "source_split": "validation",
+    "source_id": "678c0c86",
+    "question_en_original": "Who was the wife of the 23rd president?",
+    "question_translations": {
+      "ar": "من التي كانت زوجة الرئيس الثالث والعشرين؟",
+      "de": "Wer war die Frau des 23. Präsidenten?",
+      "ja": "米国の第23代大統領の妻は誰ですか？",
+      "hi": "23वें राष्ट्रपति की पत्नी कौन थीं?",
+      "pt": "Quem era a esposa do 23º presidente?",
+      "es": "¿Quién fue la esposa del 23º presidente?",
+      "it": "Chi fu la moglie del 23imo presidente?",
+      "fr": "Qui était la femme du 23e Président ?"
+    },
+    "category": "politics",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q11696",
+        "entity_type": "entity",
+        "label": "President of the United States",
+        "mention": "president",
+        "span": [
+          29,
+          38
+        ]
+      },
+      {
+        "name": "23",
+        "entity_type": "ordinal",
+        "label": "",
+        "mention": "23rd",
+        "span": [
+          24,
+          28
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Mary Dimmick Harrison and Caroline Harrison",
+    "answer_entities": [
+      {
+        "name": "Q2421426",
+        "label_en": "Mary Dimmick Harrison",
+        "raw_label": {
+          "en": "Mary Dimmick Harrison",
+          "ar": "ماري ديميك هاريسون",
+          "de": "Mary Dimmick Harrison",
+          "es": "Mary Dimmick Harrison",
+          "fr": "Mary Harrison",
+          "hi": null,
+          "it": "Mary Scott Lord Dimmick",
+          "ja": "メアリー・ディミック・ハリソン",
+          "pt": "Mary Dimmick Harrison"
+        }
+      },
+      {
+        "name": "Q234263",
+        "label_en": "Caroline Harrison",
+        "raw_label": {
+          "en": "Caroline Harrison",
+          "ar": "كارولين هاريسون",
+          "de": "Caroline Harrison",
+          "es": "Caroline Harrison",
+          "fr": "Caroline Harrison",
+          "hi": null,
+          "it": "Caroline Harrison",
+          "ja": "キャロライン・ハリソン",
+          "pt": "Caroline Harrison"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q2421426",
+        "label_en": "Mary Dimmick Harrison"
+      },
+      {
+        "name": "Q234263",
+        "label_en": "Caroline Harrison"
+      }
+    ],
+    "gold_qids": [
+      "Q2421426",
+      "Q234263"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the wife of the 23rd president?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 13,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_test_7215395f",
+    "source_dataset": "mintaka",
+    "source_split": "test",
+    "source_id": "7215395f",
+    "question_en_original": "Where is the 2020 AL MVP from?",
+    "question_translations": {
+      "ar": "من أين 2020 AL MVP؟",
+      "de": "Woher kommt der AL MVP 2020?",
+      "ja": "2020年のアメリカンリーグのMVPはどこの出身ですか？",
+      "hi": "2020 AL MVP विजेता का संबंध कहाँ से है?",
+      "pt": "De onde é o AL MVP de 2020?",
+      "es": "¿De dónde es el AL MVP de 2020?",
+      "it": "Da dove viene l'MVP dell'AL 2020?",
+      "fr": "D’où vient AL MVP 2020 ?"
+    },
+    "category": "sports",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q465469",
+        "entity_type": "entity",
+        "label": "American League",
+        "mention": "AL",
+        "span": [
+          18,
+          20
+        ]
+      },
+      {
+        "name": "Q1514249",
+        "entity_type": "entity",
+        "label": "Major League Baseball Most Valuable Player Award",
+        "mention": "MVP",
+        "span": [
+          21,
+          24
+        ]
+      },
+      {
+        "name": "2020",
+        "entity_type": "date",
+        "label": "",
+        "mention": "2020",
+        "span": [
+          13,
+          17
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Cruces, Cuba",
+    "answer_entities": [
+      {
+        "name": "Q5042",
+        "label_en": "Cruces",
+        "raw_label": {
+          "en": "Cruces",
+          "ar": null,
+          "de": "Cruces",
+          "es": "Cruces",
+          "fr": "Cruces",
+          "hi": null,
+          "it": "Cruces",
+          "ja": null,
+          "pt": "Cruces"
+        }
+      },
+      {
+        "name": "Q241",
+        "label_en": "Cuba",
+        "raw_label": {
+          "en": "Cuba",
+          "ar": "كوبا",
+          "de": "Kuba",
+          "es": "Cuba",
+          "fr": "Cuba",
+          "hi": "क्यूबा",
+          "it": "Cuba",
+          "ja": "キューバ",
+          "pt": "Cuba"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q5042",
+        "label_en": "Cruces"
+      },
+      {
+        "name": "Q241",
+        "label_en": "Cuba"
+      }
+    ],
+    "gold_qids": [
+      "Q5042",
+      "Q241"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 3,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> is the <year> al mvp from?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_test_a63f4fcf",
+    "source_dataset": "mintaka",
+    "source_split": "test",
+    "source_id": "a63f4fcf",
+    "question_en_original": "Where was the author who wrote the Jurassic Park books born?",
+    "question_translations": {
+      "ar": "أين وُلد المؤلف الذي ألف كُتب الحديقة الجوراسية؟",
+      "de": "Wo ist der Verfasser der Bücher Jurassic Park geboren?",
+      "ja": "『ジュラシック・パーク』の作者はどこで生まれましたか？",
+      "hi": "Jurassic Park की किताब लिखने वाले लेखक का जन्म कहां हुआ था?",
+      "pt": "Onde nasceu o autor dos livros Jurassic Park?",
+      "es": "¿Dónde nació el autor de los libros de Parque Jurásico?",
+      "it": "Dov'è nato l'autore dei libri di Jurassic Park?",
+      "fr": "Quel est le lieu de naisance de l’auteur des livres de Jurassic Park ?"
+    },
+    "category": "books",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q756866",
+        "entity_type": "entity",
+        "label": "Jurassic Park",
+        "mention": "Jurassic Park",
+        "span": [
+          35,
+          48
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Chicago, IL",
+    "answer_entities": [
+      {
+        "name": "Q1297",
+        "label_en": "Chicago",
+        "raw_label": {
+          "en": "Chicago",
+          "ar": "شيكاغو",
+          "de": "Chicago",
+          "es": "Chicago",
+          "fr": "Chicago",
+          "hi": "शिकागो",
+          "it": "Chicago",
+          "ja": "シカゴ",
+          "pt": "Chicago"
+        }
+      },
+      {
+        "name": "Q1204",
+        "label_en": "Illinois",
+        "raw_label": {
+          "en": "Illinois",
+          "ar": "إلينوي",
+          "de": "Illinois",
+          "es": "Illinois",
+          "fr": "Illinois",
+          "hi": "इलिनॉय",
+          "it": "Illinois",
+          "ja": "イリノイ州",
+          "pt": "Illinois"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q1297",
+        "label_en": "Chicago"
+      },
+      {
+        "name": "Q1204",
+        "label_en": "Illinois"
+      }
+    ],
+    "gold_qids": [
+      "Q1297",
+      "Q1204"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the author who wrote the <ent> books born?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_0f501f46",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "0f501f46",
+    "question_en_original": "Who co-collaborated on the script for The Godfather?",
+    "question_translations": {
+      "ar": "مَن الذي شارك في كتابة نص فيلم \"العراب\"؟",
+      "de": "Wer hat am Skipt von GODFATHER mitgewirkt?",
+      "ja": "共同で『ゴッドファーザー』の脚本を書いたのは誰ですか？",
+      "hi": "THE GODFATHER की लिपि पर किसने सहयोग किया?",
+      "pt": "Quem foi o colaborador no roteiro de O poderoso chefão?",
+      "es": "¿Quién colaboró en el guión de El Padrino?",
+      "it": "Chi ha co-collaborato alla sceneggiatura de Il Padrino?",
+      "fr": "Qui a collaboré au script du film LE PARRAIN ?"
+    },
+    "category": "books",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q47703",
+        "entity_type": "entity",
+        "label": "The Godfather",
+        "mention": "The Godfather",
+        "span": [
+          38,
+          51
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Mario Puzo Francis Ford Coppola",
+    "answer_entities": [
+      {
+        "name": "Q182870",
+        "label_en": "Mario Puzo",
+        "raw_label": {
+          "en": "Mario Puzo",
+          "ar": "ماريو بوزو",
+          "de": "Mario Puzo",
+          "es": "Mario Puzo",
+          "fr": "Mario Puzo",
+          "hi": null,
+          "it": "Mario Puzo",
+          "ja": "マリオ・プーゾ",
+          "pt": "Mario Puzo"
+        }
+      },
+      {
+        "name": "Q56094",
+        "label_en": "Francis Ford Coppola",
+        "raw_label": {
+          "en": "Francis Ford Coppola",
+          "ar": "فرانسيس فورد كوبولا",
+          "de": "Francis Ford Coppola",
+          "es": "Francis Ford Coppola",
+          "fr": "Francis Ford Coppola",
+          "hi": "फ्रांसिस फोर्ड कोपोला",
+          "it": "Francis Ford Coppola",
+          "ja": "フランシス・フォード・コッポラ",
+          "pt": "Francis Ford Coppola"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q182870",
+        "label_en": "Mario Puzo"
+      },
+      {
+        "name": "Q56094",
+        "label_en": "Francis Ford Coppola"
+      }
+    ],
+    "gold_qids": [
+      "Q182870",
+      "Q56094"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> co-collaborated on the script for <ent>?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_2c1804b1",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "2c1804b1",
+    "question_en_original": "In Kingdom Hearts what is the name of Sora's Nobody's best friends?",
+    "question_translations": {
+      "ar": "في لعبة Kingdom Hearts ما هو اسم أصدقاء شخصية Sora's Nobody المقربين؟",
+      "de": "Wie heißen in Kingdom Hearts die besten Freunde von Sora's Nobody?",
+      "ja": "『キングダムハーツ』シリーズでは、Sora's Nobodyの親友の名前はなんですか？",
+      "hi": "किंगडम हार्ट्स में सोरा नोबडीज बेस्ट फ्रेंड्स का नाम क्या है?",
+      "pt": "Em Kingdom Hearts, qual é o nome dos melhores amigos do Nobody de Sora?",
+      "es": "En Kingdom Hearts, ¿cuál es el nombre de los mejores amigos de Sora´s nobody?",
+      "it": "In Kingdom Hearts, come si chiamava il migliore amico del Nessuno di Sora?",
+      "fr": "Dans Kingdom Hearts, quel est le nom des meilleurs amis de Sora et de Nobody ?"
+    },
+    "category": "videogames",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q755167",
+        "entity_type": "entity",
+        "label": "Kingdom Hearts",
+        "mention": "Kingdom Hearts",
+        "span": [
+          3,
+          17
+        ]
+      },
+      {
+        "name": "Q2089970",
+        "entity_type": "entity",
+        "label": "Sora",
+        "mention": "Sora's",
+        "span": [
+          38,
+          44
+        ]
+      },
+      {
+        "name": "Q827383",
+        "entity_type": "entity",
+        "label": "Nobody's Home",
+        "mention": "Nobody's",
+        "span": [
+          45,
+          53
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Xion and Axel",
+    "answer_entities": [
+      {
+        "name": "Q18285504",
+        "label_en": "Xion",
+        "raw_label": {
+          "en": "Xion",
+          "ar": null,
+          "de": null,
+          "es": "Xion",
+          "fr": null,
+          "hi": null,
+          "it": null,
+          "ja": "シオン",
+          "pt": "Xion"
+        }
+      },
+      {
+        "name": "Q55687575",
+        "label_en": "Axel",
+        "raw_label": {
+          "en": "Axel",
+          "ar": null,
+          "de": null,
+          "es": null,
+          "fr": null,
+          "hi": null,
+          "it": null,
+          "ja": "アクセル",
+          "pt": null
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q18285504",
+        "label_en": "Xion"
+      },
+      {
+        "name": "Q55687575",
+        "label_en": "Axel"
+      }
+    ],
+    "gold_qids": [
+      "Q18285504",
+      "Q55687575"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 3,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> what is the name of <ent><quote>s best friends?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_7ab42179",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "7ab42179",
+    "question_en_original": "Where was the head coach of Real Madrid CF born?",
+    "question_translations": {
+      "ar": "أين ولد المدير الفني لريال مدريد؟",
+      "de": "Wo wurde der Cheftrainer von Real Madrid CF geboren?",
+      "ja": "レアル・マドリードのヘッドコーチはどこで生まれましたか？",
+      "hi": "रियल मेड्रिड CF के मुख्य कोच का जन्म कहाँ हुआ था?",
+      "pt": "Onde nasceu o treinador principal do Real Madrid CF?",
+      "es": "¿Dónde nació el seleccionador principal del Real Madrid?",
+      "it": "Dov'è nato l'allenatore del Real Madrid?",
+      "fr": "Où l’entraîneur titulaire du Real Madrid CF est-il né ?"
+    },
+    "category": "sports",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q8682",
+        "entity_type": "entity",
+        "label": "Real Madrid CF",
+        "mention": "Real Madrid CF",
+        "span": [
+          28,
+          42
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Reggiolo, Italy",
+    "answer_entities": [
+      {
+        "name": "Q952",
+        "label_en": "Reggiolo",
+        "raw_label": {
+          "en": "Reggiolo",
+          "ar": "ريدجولو",
+          "de": "Reggiolo",
+          "es": "Reggiolo",
+          "fr": "Reggiolo",
+          "hi": null,
+          "it": "Reggiolo",
+          "ja": "レッジョーロ",
+          "pt": "Reggiolo"
+        }
+      },
+      {
+        "name": "Q38",
+        "label_en": "Italy",
+        "raw_label": {
+          "en": "Italy",
+          "ar": "إيطاليا",
+          "de": "Italien",
+          "es": "Italia",
+          "fr": "Italie",
+          "hi": "इटली",
+          "it": "Italia",
+          "ja": "イタリア",
+          "pt": "Itália"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q952",
+        "label_en": "Reggiolo"
+      },
+      {
+        "name": "Q38",
+        "label_en": "Italy"
+      }
+    ],
+    "gold_qids": [
+      "Q952",
+      "Q38"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the head coach of <ent> cf born?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_f31def6d",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "f31def6d",
+    "question_en_original": "Where was the drummer from R.E.M. born?",
+    "question_translations": {
+      "ar": "أين وُلد قارع الطبول في فرقة آر إي إم؟",
+      "de": "Wo ist der Schlagzeuger von R.E.M. geboren?",
+      "ja": "R.E.M.のドラマーが生まれたのはどこですか？",
+      "hi": "R.E.M. के ड्रमर का जन्म कहाँ हुआ था?",
+      "pt": "Onde nasceu o baterista do R.E.M.?",
+      "es": "¿Dónde nació el baterista de R.E.M.?",
+      "it": "Quando è nato il batterista dei R.E.M?",
+      "fr": "Où est né le batteur de R.E.M. ?"
+    },
+    "category": "music",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q134969",
+        "entity_type": "entity",
+        "label": "R.E.M.",
+        "mention": "R.E.M.",
+        "span": [
+          27,
+          33
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Duluth, Minnesota",
+    "answer_entities": [
+      {
+        "name": "Q485708",
+        "label_en": "Duluth",
+        "raw_label": {
+          "en": "Duluth",
+          "ar": "دولوث",
+          "de": "Duluth",
+          "es": "Duluth",
+          "fr": "Duluth",
+          "hi": "डुलथ",
+          "it": "Duluth",
+          "ja": "ダルース",
+          "pt": "Duluth"
+        }
+      },
+      {
+        "name": "Q1527",
+        "label_en": "Minnesota",
+        "raw_label": {
+          "en": "Minnesota",
+          "ar": "مينيسوتا",
+          "de": "Minnesota",
+          "es": "Minesota",
+          "fr": "Minnesota",
+          "hi": "मिनेसोटा",
+          "it": "Minnesota",
+          "ja": "ミネソタ州",
+          "pt": "Minnesota"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q485708",
+        "label_en": "Duluth"
+      },
+      {
+        "name": "Q1527",
+        "label_en": "Minnesota"
+      }
+    ],
+    "gold_qids": [
+      "Q485708",
+      "Q1527"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> was the drummer from r.e.m. born?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_fb2caf1b",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "fb2caf1b",
+    "question_en_original": "Where did the winner of the 2017 Nobel Prize in Literature go to university?",
+    "question_translations": {
+      "ar": "بأي جامعة التحق الفائز بجائزة نوبل في الأدب لعام 2017؟",
+      "de": "Wo hat der Gewinner des 2017 Nobelpreises für Literatur studiert?",
+      "ja": "2017年ノーベル文学賞の受賞者はどこで大学に行きましたか？",
+      "hi": "साल 2017 के साहित्य के क्षेत्र में नोबल पुरस्कार जीतने वाले व्यक्ति कहां के विश्वविद्यालय में गए?",
+      "pt": "Onde o prêmio Nobel de inverno de 2017 em Literatura fez faculdade?",
+      "es": "¿A qué universidad fue el ganador del Premio Nobel de Literatura de 2017?",
+      "it": "In quale università è andato il vincitore del Nobel per la Letteratura 2017?",
+      "fr": "Dans quelle université le lauréat du prix Nobel de littérature de 2017 a-t-il fait ses études ?"
+    },
+    "category": "books",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q37922",
+        "entity_type": "entity",
+        "label": "Nobel Prize in Literature",
+        "mention": "Nobel Prize in Literature",
+        "span": [
+          33,
+          58
+        ]
+      },
+      {
+        "name": "2017",
+        "entity_type": "date",
+        "label": "",
+        "mention": "2017",
+        "span": [
+          28,
+          32
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "University of Kent at Canterbury and University of East Anglia",
+    "answer_entities": [
+      {
+        "name": "Q1516684",
+        "label_en": "University of Kent",
+        "raw_label": {
+          "en": "University of Kent",
+          "ar": "جامعة كنت",
+          "de": "University of Kent",
+          "es": "Universidad de Kent",
+          "fr": "université du Kent",
+          "hi": null,
+          "it": "University of Kent",
+          "ja": "ケント大学",
+          "pt": "Universidade de Kent"
+        }
+      },
+      {
+        "name": "Q1045828",
+        "label_en": "University of East Anglia",
+        "raw_label": {
+          "en": "University of East Anglia",
+          "ar": "جامعة إيست أنجليا",
+          "de": "University of East Anglia",
+          "es": "Universidad de Anglia del Este",
+          "fr": "université d'East Anglia",
+          "hi": null,
+          "it": null,
+          "ja": "イースト・アングリア大学",
+          "pt": "Universidade da Ânglia Oriental"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q1516684",
+        "label_en": "University of Kent"
+      },
+      {
+        "name": "Q1045828",
+        "label_en": "University of East Anglia"
+      }
+    ],
+    "gold_qids": [
+      "Q1516684",
+      "Q1045828"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> did the winner of the <year> <ent> in <ent> go to university?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_validation_2edc90bd",
+    "source_dataset": "mintaka",
+    "source_split": "validation",
+    "source_id": "2edc90bd",
+    "question_en_original": "The drummer for Nirvana was born in what city?",
+    "question_translations": {
+      "ar": "في أي مدينة وُلد عازف الطبل لفرقة نيرفانا؟",
+      "de": "In welcher Stadt wurde der Schlagzeuger von Nirvana geboren?",
+      "ja": "ニルヴァーナのドラマーが生まれた都市はどこですか？",
+      "hi": "निर्वाण के ड्रमर का जन्म किस शहर में हुआ था?",
+      "pt": "O baterista do Nirvana nasceu em que cidade?",
+      "es": "¿En qué ciudad nació el baterista de Nirvana?",
+      "it": "In quale città è nato il batterista dei Nirvana?",
+      "fr": "Dans quelle ville est né le batteur du groupe Nirvana ?"
+    },
+    "category": "music",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q11649",
+        "entity_type": "entity",
+        "label": "Nirvana",
+        "mention": "Nirvana",
+        "span": [
+          16,
+          23
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "list_like",
+    "answer_text_en": "Warren, Ohio",
+    "answer_entities": [
+      {
+        "name": "Q862733",
+        "label_en": "Warren",
+        "raw_label": {
+          "en": "Warren",
+          "ar": "وارن",
+          "de": "Warren",
+          "es": "Warren",
+          "fr": "Warren",
+          "hi": null,
+          "it": "Warren",
+          "ja": "ウォーレン",
+          "pt": "Warren"
+        }
+      },
+      {
+        "name": "Q1397",
+        "label_en": "Ohio",
+        "raw_label": {
+          "en": "Ohio",
+          "ar": "أوهايو",
+          "de": "Ohio",
+          "es": "Ohio",
+          "fr": "Ohio",
+          "hi": "ओहायो",
+          "it": "Ohio",
+          "ja": "オハイオ州",
+          "pt": "Ohio"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q862733",
+        "label_en": "Warren"
+      },
+      {
+        "name": "Q1397",
+        "label_en": "Ohio"
+      }
+    ],
+    "gold_qids": [
+      "Q862733",
+      "Q1397"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 2,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 10,
+    "surface_template": "<ent> drummer for <ent> was born in what city?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 0,
+    "intersection_hits": 0,
+    "extra_constraints": 0,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "multi_answer|list_like"
+  },
+  {
+    "benchmark_id": "mintaka_train_2548ae2c",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "2548ae2c",
+    "question_en_original": "What’s the biggest continent with the highest population?",
+    "question_translations": {
+      "ar": "ما أكبر قارة مكتظة بأكبر تعداد سكاني عليها؟",
+      "de": "Welches ist der größte Kontinent mit der größten Einwohnerzahl?",
+      "ja": "最も多くの人口をもつ最も大きな大陸はどこですか？",
+      "hi": "सबसे बड़ा महाद्वीप कौन सा है जिसमें सर्वाधिक जनसंख्या है?",
+      "pt": "Qual é o maior continente que tem a maior população?",
+      "es": "¿Cuál es el continente que tiene la mayor población?",
+      "it": "Qual è il più grande continente e più popoloso?",
+      "fr": "Quel est le plus grand continent qui a le plus de population ?"
+    },
+    "category": "geography",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q5107",
+        "entity_type": "entity",
+        "label": "continent",
+        "mention": "continent",
+        "span": [
+          19,
+          28
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "single",
+    "answer_text_en": "Asia",
+    "answer_entities": [
+      {
+        "name": "Q48",
+        "label_en": "Asia",
+        "raw_label": {
+          "en": "Asia",
+          "ar": "آسيا",
+          "de": "Asien",
+          "es": "Asia",
+          "fr": "Asie",
+          "hi": "एशिया",
+          "it": "Asia",
+          "ja": "アジア",
+          "pt": "Ásia"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q48",
+        "label_en": "Asia"
+      }
+    ],
+    "gold_qids": [
+      "Q48"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 1,
+    "num_question_entities": 1,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 7,
+    "surface_template": "<ent>’s the biggest continent with the highest population?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 2,
+    "intersection_hits": 1,
+    "extra_constraints": 2,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "comparison_signal"
+  },
+  {
+    "benchmark_id": "mintaka_train_5362eb29",
+    "source_dataset": "mintaka",
+    "source_split": "train",
+    "source_id": "5362eb29",
+    "question_en_original": "What is the smallest country that is part of the largest continent?",
+    "question_translations": {
+      "ar": "ما هو أصغر بلد يشكل جزءا من أكبر قارة؟",
+      "de": "Welches ist das kleinste Land, das Teil des größten Kontinents ist?",
+      "ja": "最も大きな大陸に属する最も小さな国はどこ？",
+      "hi": "सबसे छोटा देश कौनसा है जो सबसे बड़े कंटीनेंट का हिस्सा है?",
+      "pt": "Qual é o menor país que faz parte do maior continente?",
+      "es": "¿Cuál es el país más pequeño que es parte del continente más grande?",
+      "it": "Qual è il paese più piccolo del continente più grande?",
+      "fr": "Quel est le plus petit pays qui fait partie du plus grand continent ?"
+    },
+    "category": "geography",
+    "complexity_type": "multihop",
+    "reasoning_family": "multihop",
+    "question_entities": [
+      {
+        "name": "Q6256",
+        "entity_type": "entity",
+        "label": "country",
+        "mention": "country",
+        "span": [
+          21,
+          28
+        ]
+      },
+      {
+        "name": "Q5107",
+        "entity_type": "entity",
+        "label": "continent",
+        "mention": "continent",
+        "span": [
+          57,
+          66
+        ]
+      }
+    ],
+    "answer_type": "entity",
+    "answer_mode": "single",
+    "answer_text_en": "Maldives",
+    "answer_entities": [
+      {
+        "name": "Q826",
+        "label_en": "Maldives",
+        "raw_label": {
+          "en": "Maldives",
+          "ar": "المالديف",
+          "de": "Malediven",
+          "es": "Maldivas",
+          "fr": "Maldives",
+          "hi": "मालदीव",
+          "it": "Maldive",
+          "ja": "モルディブ",
+          "pt": "Maldivas"
+        }
+      }
+    ],
+    "gold_answers": [
+      {
+        "name": "Q826",
+        "label_en": "Maldives"
+      }
+    ],
+    "gold_qids": [
+      "Q826"
+    ],
+    "supporting_entities": [],
+    "supporting_numbers": [],
+    "num_answers": 1,
+    "num_question_entities": 2,
+    "has_supporting_entities": false,
+    "has_supporting_numbers": false,
+    "needs_translation": true,
+    "needs_rephrase": true,
+    "translation_source": "en",
+    "notes": "",
+    "priority_score": 7,
+    "surface_template": "<ent> is the smallest country that is part of the largest continent?",
+    "is_shallow_bridge": false,
+    "is_technical": false,
+    "is_binary_question": false,
+    "is_count_only": false,
+    "temporal_hits": 0,
+    "comparison_hits": 2,
+    "intersection_hits": 1,
+    "extra_constraints": 2,
+    "reconstructability_score_v2": 12,
+    "auto_decision": "keep_for_reconstruction",
+    "decision_reasons": "comparison_signal"
+  }
+]

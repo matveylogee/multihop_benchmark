@@ -1,0 +1,24 @@
+{
+  "all_rows": 192606,
+  "by_split": {
+    "train": 167454,
+    "test": 12576,
+    "dev": 12576
+  },
+  "by_question_type": {
+    "compositional": 86979,
+    "comparison": 57989,
+    "bridge_comparison": 40160,
+    "inference": 7478
+  },
+  "by_answer_mode": {
+    "single": 185212,
+    "unknown": 6812,
+    "count_or_number": 582
+  },
+  "by_strength_bucket": {
+    "weak": 191026,
+    "medium": 1580
+  },
+  "num_shallow_bridge_true": 94457
+}

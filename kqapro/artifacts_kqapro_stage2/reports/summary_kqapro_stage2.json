@@ -1,0 +1,63 @@
+{
+  "source_dataset": "kqa_pro",
+  "num_all_normalized": 106173,
+  "num_complex_candidates": 72792,
+  "num_balanced_shortlist": 600,
+  "mean_program_length_all": 4.7866312527667105,
+  "mean_program_length_complex": 5.5071711177052425,
+  "mean_program_length_shortlist": 7.028333333333333,
+  "mean_priority_score_all": 9.831576766221167,
+  "mean_priority_score_complex": 12.305610506649082,
+  "mean_priority_score_shortlist": 14.713333333333333,
+  "families_in_shortlist": [
+    {
+      "primary_reasoning_family": "multi_hop",
+      "count": 75,
+      "mean_program_length": 10.08,
+      "mean_priority_score": 23.72
+    },
+    {
+      "primary_reasoning_family": "logical_set",
+      "count": 75,
+      "mean_program_length": 9.0,
+      "mean_priority_score": 19.0
+    },
+    {
+      "primary_reasoning_family": "count",
+      "count": 75,
+      "mean_program_length": 7.0,
+      "mean_priority_score": 15.506666666666666
+    },
+    {
+      "primary_reasoning_family": "verification",
+      "count": 75,
+      "mean_program_length": 6.346666666666667,
+      "mean_priority_score": 15.28
+    },
+    {
+      "primary_reasoning_family": "qualifier",
+      "count": 75,
+      "mean_program_length": 7.0,
+      "mean_priority_score": 14.0
+    },
+    {
+      "primary_reasoning_family": "temporal",
+      "count": 75,
+      "mean_program_length": 6.0,
+      "mean_priority_score": 11.0
+    },
+    {
+      "primary_reasoning_family": "comparison_or_superlative",
+      "count": 75,
+      "mean_program_length": 5.0,
+      "mean_priority_score": 10.0
+    },
+    {
+      "primary_reasoning_family": "filtering",
+      "count": 75,
+      "mean_program_length": 5.8,
+      "mean_priority_score": 9.2
+    }
+  ],
+  "artifacts_dir": "/Users/matvey/Desktop/kqapro/artifacts_kqapro_stage2"
+}

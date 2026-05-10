@@ -70,3 +70,4 @@ kqapro/artifacts_kqapro_stage3/jsonl/kqapro_filtered_candidates.jsonl
 2wikimultihop/artifacts_2wikimultihop_stage1/jsonl/2wikimultihop_all_normalized.jsonl
 kqapro/artifacts_kqapro_stage2/csv/kqapro_complex_candidates.csv
 kqapro/artifacts_kqapro_stage2/jsonl/kqapro_all_normalized.jsonl
+wikidata/out_wikidata_benchmark/cache_gold_enrichment

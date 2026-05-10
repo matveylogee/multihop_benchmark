@@ -1,0 +1,7 @@
+gold_enrichment_status,count,share
+ok,763,0.763
+error,90,0.09
+skip_cannot_infer_answer_var,69,0.069
+ok_but_original_not_subset,43,0.043
+too_many_candidates,34,0.034
+skip_no_sparql,1,0.001

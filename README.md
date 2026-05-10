@@ -34,6 +34,8 @@
 - [Общий пайплайн генерации и оценки](#общий-пайплайн-генерации-и-оценки)
 - [Пайплайн генерации через Wikidata](#пайплайн-генерации-через-wikidata)
 - [Пайплайн внешних датасетов](#пайплайн-внешних-датасетов)
+- [Обогащение gold-ответов](#обогащение-gold-ответов)
+- [Мерж срезов в единый датасет](#мерж-срезов-в-единый-датасет)
 - [Пайплайн оценки моделей](#пайплайн-оценки-моделей)
 - [Как пользоваться репозиторием](#как-пользоваться-репозиторием)
 - [Текущий статус](#текущий-статус)
@@ -117,6 +119,13 @@ multihop_benchmark/
 │   ├── 02_import_rubq_mkqa_ru_nodedup.ipynb
 │   └── artifacts_external_stage1/
 │
+├── merge slices/
+│   ├── 07_merge_sources_to_wikidata_format.ipynb
+│   └── merged_dataset/
+│       ├── multihop_benchmark_merged_diagnostics.csv
+│       ├── multihop_benchmark_merged_wikidata_format.json
+│       └── multihop_benchmark_merged_wikidata_format.jsonl
+│
 ├── mintaka/
 │   ├── 03c_import_mintaka_multihop.ipynb
 │   ├── 04c_filter_mintaka_for_reconstruction.ipynb
@@ -143,6 +152,8 @@ multihop_benchmark/
 | `wikidata/out_wikidata_benchmark/` | Сгенерированные артефакты: JSONL-файлы, enriched gold, diagnostics, zero-gold примеры и статистика. |
 | `kqapro/` | Импорт, фильтрация, ручная разметка, подготовка к переводу и конвертация выбранных примеров из KQA Pro. |
 | `rubq_mkqa/` | Анализ и импорт RuBQ/MKQA кандидатов. Используется как вспомогательный источник русскоязычных QA-формулировок. |
+| `merge slices/` | Финальное объединение Wikidata-ядра и внешних срезов в единый benchmark-формат. |
+| `merge slices/merged_dataset/` | Итоговый объединенный датасет в Wikidata-like формате и diagnostics по результатам мержа. |
 | `mintaka/` | Импорт и фильтрация Mintaka-примеров. Используется как дополнительный источник multi-hop кандидатов. |
 | `2wikimultihop/` | Импорт и фильтрация 2WikiMultiHopQA примеров, особенно bridge/comparison reasoning. |
 
@@ -454,13 +465,24 @@ wikidata/multihop_benchmark.ipynb
 - сохранение формального источника ответа;
 - воспроизводимость сгенерированных примеров.
 
-Дополнительное обогащение gold-ответов выполняется ноутбуком:
+Дополнительное обогащение gold-ответов выполняется отдельным ноутбуком:
 
 ```text
 wikidata/enrich_existing_wikidata_gold.ipynb
 ```
 
-Он нужен, когда уже существующие записи требуется переобработать или дополнить более полным списком gold-ответов без потери исходной структуры.
+Этот ноутбук используется после основной генерации, когда уже собранный `dataset_main.jsonl` нужно не перегенерировать с нуля, а аккуратно дообогатить gold-информацией. Это важно, потому что основной генератор может хранить только ограниченный или первичный набор ответов, а для финальной оценки полезно иметь более полный и проверяемый gold-set.
+
+В результате enrichment-этапа появляются отдельные артефакты:
+
+```text
+wikidata/out_wikidata_benchmark/dataset_main.full_gold_enriched.jsonl
+wikidata/out_wikidata_benchmark/dataset_main.full_gold_enriched.diagnostics.csv
+```
+
+`dataset_main.full_gold_enriched.jsonl` сохраняет записи основного датасета, но добавляет или уточняет информацию о gold-ответах. Diagnostics-файл нужен для аудита: по нему можно смотреть, какие записи удалось обогатить, где возникли проблемы, где не хватило labels, где gold-set мог быть пустым, неполным или требовать ручной проверки.
+
+Главная идея этого этапа — не ломать исходный датасет, а получать отдельную enriched-версию, которую можно сравнивать с базовой и использовать дальше в финальном merge/evaluation pipeline.
 
 ---
 
@@ -527,6 +549,111 @@ RuBQ/MKQA полезны для русских формулировок и KBQA-
 03e_import_2wikimultihop.ipynb
 04e_filter_2wikimultihop_for_reconstruction_fixed_v5.ipynb
 ```
+
+---
+
+## Обогащение gold-ответов
+
+В проекте отдельно выделен этап enrichment, потому что генерация запроса и финальная подготовка gold-set — это разные задачи.
+
+Основной генератор в `wikidata/multihop_benchmark.ipynb` отвечает за создание запросов, constraints, SPARQL и первичный сбор ответов. Но после этого может потребоваться дополнительная обработка:
+
+- пересобрать полный список gold-ответов для уже существующих запросов;
+- проверить, что у ответов есть русские labels;
+- сохранить дополнительные labels или идентификаторы;
+- найти записи, где gold-set оказался неполным;
+- отдельно отметить проблемные случаи для ручной валидации;
+- не перезаписывать исходный `dataset_main.jsonl`, а создать enriched-версию.
+
+Для этого используется ноутбук:
+
+```text
+wikidata/enrich_existing_wikidata_gold.ipynb
+```
+
+Ключевые выходные файлы:
+
+```text
+wikidata/out_wikidata_benchmark/dataset_main.full_gold_enriched.jsonl
+wikidata/out_wikidata_benchmark/dataset_main.full_gold_enriched.diagnostics.csv
+```
+
+Рекомендуемая логика работы:
+
+```text
+1. Сначала сгенерировать или дополнить dataset_main.jsonl
+2. Запустить enrichment-ноутбук
+3. Получить full_gold_enriched JSONL
+4. Проверить diagnostics CSV
+5. Использовать enriched-версию для финального мержа и оценки
+```
+
+Такой подход безопаснее, чем перегенерировать основной датасет: базовый файл остается как исходный слой, а enriched-файл становится отдельным артефактом для downstream-этапов.
+
+---
+
+## Мерж срезов в единый датасет
+
+После подготовки отдельных источников и срезов используется отдельный этап объединения в единый benchmark-формат.
+
+За него отвечает папка:
+
+```text
+merge slices/
+```
+
+Основной ноутбук:
+
+```text
+merge slices/07_merge_sources_to_wikidata_format.ipynb
+```
+
+Его задача — собрать разные подготовленные части датасета в общий формат, совместимый с Wikidata core. На этом этапе отдельные external-срезы приводятся к единой схеме, чтобы дальше их можно было использовать в одном evaluation pipeline.
+
+В merge-этап могут попадать:
+
+- основной Wikidata core;
+- enriched Wikidata records;
+- вручную отобранные и переведенные KQA Pro примеры;
+- подготовленные Mintaka-примеры;
+- подходящие 2WikiMultiHopQA-примеры;
+- другие auxiliary slices, если они прошли фильтрацию и ручную проверку.
+
+Выходная папка:
+
+```text
+merge slices/merged_dataset/
+```
+
+Ключевые файлы:
+
+```text
+merge slices/merged_dataset/multihop_benchmark_merged_wikidata_format.jsonl
+merge slices/merged_dataset/multihop_benchmark_merged_wikidata_format.json
+merge slices/merged_dataset/multihop_benchmark_merged_diagnostics.csv
+```
+
+Назначение файлов:
+
+| Файл | Назначение |
+|---|---|
+| `multihop_benchmark_merged_wikidata_format.jsonl` | Основной объединенный датасет: один benchmark-record на строку. |
+| `multihop_benchmark_merged_wikidata_format.json` | Та же объединенная выборка в обычном JSON-формате, удобном для просмотра или загрузки целиком. |
+| `multihop_benchmark_merged_diagnostics.csv` | Диагностика мержа: помогает проверить источники, количество записей, ошибки нормализации и потенциально проблемные примеры. |
+
+На этом этапе важно сохранить совместимость схемы: даже если запись пришла из внешнего датасета, она должна быть приведена к Wikidata-like benchmark format. Это упрощает downstream-инференс, оценку и агрегацию метрик по доменам, сложности и источникам.
+
+Типичный workflow финальной сборки:
+
+```text
+1. Подготовить Wikidata core
+2. Обогатить gold-ответы через enrich_existing_wikidata_gold.ipynb
+3. Подготовить внешние срезы в их папках
+4. Запустить 07_merge_sources_to_wikidata_format.ipynb
+5. Проверить multihop_benchmark_merged_diagnostics.csv
+6. Использовать multihop_benchmark_merged_wikidata_format.jsonl как финальный датасет для evaluation pipeline
+```
+
 
 ---
 
@@ -609,6 +736,12 @@ mintaka/05c_convert_mintaka_csv_to_manual_ru_jsonl.ipynb
 2wikimultihop/04e_filter_2wikimultihop_for_reconstruction_fixed_v5.ipynb
 ```
 
+Для финального объединения срезов:
+
+```text
+merge slices/07_merge_sources_to_wikidata_format.ipynb
+```
+
 ### 3. Посмотреть сгенерированные артефакты
 
 Главные выходные файлы лежат в:
@@ -617,13 +750,27 @@ mintaka/05c_convert_mintaka_csv_to_manual_ru_jsonl.ipynb
 wikidata/out_wikidata_benchmark/
 ```
 
-Самые важные файлы:
+Самые важные файлы Wikidata-слоя:
 
 ```text
 dataset_main.jsonl
 dataset_main.full_gold_enriched.jsonl
 dataset_main.full_gold_enriched.diagnostics.csv
 zero_gold.json
+```
+
+Финальный объединенный датасет после мержа лежит в:
+
+```text
+merge slices/merged_dataset/
+```
+
+Ключевые merged-артефакты:
+
+```text
+multihop_benchmark_merged_wikidata_format.jsonl
+multihop_benchmark_merged_wikidata_format.json
+multihop_benchmark_merged_diagnostics.csv
 ```
 
 ### 4. Провалидировать данные перед финальной оценкой
@@ -663,6 +810,9 @@ zero_gold.json
 - RuBQ/MKQA import pipeline;
 - Mintaka import/filter/conversion pipeline;
 - 2WikiMultiHopQA import/filter pipeline;
+- отдельный enrichment-ноутбук для обогащения gold-ответов;
+- отдельный merge pipeline для объединения срезов в единый Wikidata-like формат;
+- финальный merged dataset в JSON/JSONL;
 - manual review и промежуточные artifacts.
 
 ---

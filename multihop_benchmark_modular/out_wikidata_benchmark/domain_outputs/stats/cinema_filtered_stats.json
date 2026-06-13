@@ -1,0 +1,86 @@
+{
+  "records_total": 215,
+  "counts_by_complexity": {
+    "L1": 4,
+    "L2": 19,
+    "L3": 42,
+    "L4": 83,
+    "L5": 67
+  },
+  "counts_by_kind": {
+    "short_film": 11,
+    "film": 124,
+    "animated_film": 30,
+    "tv_series": 17,
+    "actor": 33
+  },
+  "counts_by_complexity_and_kind": {
+    "L1": {
+      "short_film": 2,
+      "film": 2
+    },
+    "L2": {
+      "film": 5,
+      "animated_film": 7,
+      "tv_series": 3,
+      "short_film": 4
+    },
+    "L3": {
+      "animated_film": 16,
+      "tv_series": 9,
+      "film": 13,
+      "short_film": 4
+    },
+    "L4": {
+      "film": 58,
+      "actor": 14,
+      "animated_film": 6,
+      "tv_series": 4,
+      "short_film": 1
+    },
+    "L5": {
+      "actor": 19,
+      "animated_film": 1,
+      "tv_series": 1,
+      "film": 46
+    }
+  },
+  "gold_count": {
+    "min": 3,
+    "max": 48,
+    "mean": 14.38,
+    "median": 10.0
+  },
+  "constraint_count": {
+    "min": 2,
+    "max": 10,
+    "mean": 7.02,
+    "median": 7.0
+  },
+  "exact_year_count": 7,
+  "exact_year_share": 0.0326,
+  "rating_type_counts": {
+    "rating_max": 72,
+    "rating_min": 131,
+    "no_rating": 12
+  },
+  "has_votes_count": 53,
+  "has_runtime_count": 50,
+  "bridge_counts": {
+    "no_bridge": 65,
+    "actor_from_object": 62,
+    "movie_director_from_object": 4,
+    "director_from_object": 9,
+    "production_company_from_object": 46,
+    "movie_production_company_from_object": 11,
+    "movie_composer_from_object": 3,
+    "co_actor_from_object": 15
+  },
+  "gold_completeness_counts": {
+    "may_be_incomplete_due_to_wdqs": 48,
+    "not_truncated": 167
+  },
+  "missing_local_validator": 0,
+  "missing_gold_collection_meta": 0,
+  "records_gold_lt_requested": 0
+}

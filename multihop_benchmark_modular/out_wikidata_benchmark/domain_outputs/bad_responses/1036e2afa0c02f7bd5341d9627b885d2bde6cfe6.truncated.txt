@@ -1,0 +1,1239 @@
+{
+  "head" : {
+    "vars" : [ "person", "personLabelEn", "personLabelRu", "educatedAt", "birthDate" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q637214"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sven Lidman"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q538109"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ture Nerman"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Туре Нерман"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q514315"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Georg Stiernhielm"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Георг Шернъельм"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q708780"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pehr Henrik Ling"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Пер Хенрик Линг"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q708780"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pehr Henrik Ling"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Пер Хенрик Линг"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q331173"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sigfrid Siwertz"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сигфрид Сивертс"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q291194"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hjalmar Gullberg"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Яльмар Гулльберг"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q335832"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Þórarinn Eldjárn"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тоураринн Эльдьяудн"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q316381"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carl Jonas Love Almqvist"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Карл Юнас Луве Альмквист"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q193035"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221645"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sergio Badilla Castillo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Серхио Бадилья Кастильо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442103"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katarina Mazetti"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Катарина Мазетти"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185832"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emmanuel Swedenborg"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эммануил Сведенборг"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q246279"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gunno Dahlstierna"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q246312"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Samuel Columbus"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q442535"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7666369"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Stig Dagerman"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Стиг Дагерман"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q44519"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10532337"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Selma Lagerlöf"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сельма Лагерлёф"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q686398"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sigurd Agrell"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q327578"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6375890"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johannes Edfelt"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q307693"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221645"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Öyvind Fahlström"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эйвинд Фальстрём"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194665"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jesper Svenbro"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q380937"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erik Gustaf Geijer"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эрик Густав Гейер"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q367965"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karl Fredrik Dahlgren"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Карл Фредрик Дальгрен"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q444002"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frans G. Bengtsson"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Франц Гуннар Бенгтссон"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q541085"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10728379"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kjell Espmark"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Челль Эспмарк"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q444538"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Per Daniel Amadeus Atterbom"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Пер Даниель Амадеус Аттербум"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q246991"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lars Wivallius"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ларс Виваллиус"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q668328"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Oscar Levertin"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Оскар Ивар Левертин"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47088"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carl David af Wirsén"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Карл Давид аф Вирсен"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q615625"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1061504"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Alexander Bard"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Александр Бард"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q366311"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gunnar Ekelöf"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Гуннар Экелёф"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q647392"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carl Gyllenborg"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Карл Юлленборг"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q597713"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q854280"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Per Hallström"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Пер Гальстрём"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q372210"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Lars Gustafsson"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ларс Густафссон"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q366765"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Esaias Tegnér"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эсайас Тегнер"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q490686"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anders Abraham Grafström"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Андреас Абрагам Графстрём"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q366801"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gustaf Fröding"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Густав Фрёдинг"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q366801"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7808203"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gustaf Fröding"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Густав Фрёдинг"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q455625"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10576105"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Evert Taube"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эверт Тоб"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q333297"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Frans Michael Franzén"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Франс Микаэль Франсен"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q126270"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q289100"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sofia Elisabet Weber"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Бреннер София Элизабет"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q134641"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Erik Axel Karlfeldt"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эрик Аксель Карлфельдт"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q490922"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anders Fjellner"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Андерс Фьелльнер"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q490922"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10531745"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Anders Fjellner"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Андерс Фьелльнер"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q543195"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6375890"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johan Henric Kellgren"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юхан Хенрик Чельгрен"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q706560"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7169392"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beppe Wolgers"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Беппе Вольгерс"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q706560"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10637538"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Beppe Wolgers"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Беппе Вольгерс"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q359592"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167920"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Piet Hein"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Пит Хейн"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q378276"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221645"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katarina Frostenson"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Катарина Фростенсон"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q962071"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221645"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hrafn Gunnlaugsson"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Храбн Гюннлёйхссон"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q267959"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Karl August Nicander"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Карл Август Никандер"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q93137"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Pär Lagerkvist"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Пер Лагерквист"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1267"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dag Hammarskjöld"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даг Хаммаршёльд"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1267"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221645"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dag Hammarskjöld"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даг Хаммаршёльд"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1267"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q64438163"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Dag Hammarskjöld"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даг Хаммаршёльд"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42122"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221645"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomas Tranströmer"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тумас Транстрёмер"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q42122"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q7666369"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomas Tranströmer"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тумас Транстрёмер"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q312498"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carl Michael Bellman"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Карл Микаэль Бельман"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2644484"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johan Adolph Mecklin"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3304999"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Clas Livijn"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3305484"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q218506"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Emil Kléen"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1613210"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Johan Gabriel Oxenstierna"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юхан Габриэль Оксеншерна"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2667957"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q221645"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Juris Kronbergs"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юрис Кронбергс"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3356174"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Carl Axel Gottlund"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1384021"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tage Danielsson"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таге Даниэльссон"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1384021"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q6375889"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tage Danielsson"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таге Даниэльссон"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3371282"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q10663285"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marcus Birro"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q709853"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q167920"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ernst Josephson"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эрнст Юсефсон"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q865168"
+      },
+      "educatedAt" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q185246"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Birger Mörner"
+      }
+    }, {
+      "person" 

@@ -1,0 +1,1789 @@
+{
+  "domain": "dishes",
+  "patch_version": "v5_l2_inventory_fast",
+  "target_plan": {
+    "L1": 15,
+    "L2": 20,
+    "L3": 25,
+    "L4": 30,
+    "L5": 30
+  },
+  "records_total": 37,
+  "counts_by_complexity": {
+    "L1": 15,
+    "L2": 20,
+    "L3": 2
+  },
+  "template_counts": {
+    "dishes_l1_continent_ingredient": 7,
+    "dishes_l1_country_ingredient": 2,
+    "dishes_l1_ingredient_type": 3,
+    "dishes_l1_country_type": 3,
+    "dishes_l2_continent_two_ingredients": 8,
+    "dishes_l2_country_two_ingredients": 8,
+    "dishes_l2_continent_ingredient_type": 4,
+    "dishes_l3_shared_ingredient_with_seed_type": 2
+  },
+  "template_family_counts": {
+    "continent_ingredient": 7,
+    "origin_country_ingredient": 2,
+    "ingredient_type": 3,
+    "origin_country_type": 3,
+    "continent_two_ingredients": 8,
+    "origin_country_two_ingredients": 8,
+    "continent_ingredient_type": 4,
+    "seed_shared_ingredient_type": 2
+  },
+  "gold_truncated_count": 0,
+  "avg_gold_count_by_complexity": {
+    "L1": 19.67,
+    "L2": 10.15,
+    "L3": 6.0,
+    "L4": 0.0,
+    "L5": 0.0
+  },
+  "queue_meta": {
+    "L1": {
+      "candidates": 900,
+      "accepted_this_run": 15,
+      "tried": 118
+    },
+    "L2": {
+      "candidates": 55,
+      "accepted_this_run": 20,
+      "tried": 26
+    },
+    "L3": {
+      "candidates": 1910,
+      "accepted_this_run": 2,
+      "tried": 124
+    }
+  },
+  "skipped_count": 231,
+  "skipped_preview": [
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_type",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "India",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Vietnamese cuisine",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "ingredient": "maize",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_continent_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "ingredient": "soybean"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Italian cuisine",
+        "ingredient": "milk"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_type",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Hungary",
+        "dish_type": "bread"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Mexican cuisine",
+        "dish_type": "dumpling"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Spain",
+        "ingredient": "egg"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "ingredient": "garlic",
+        "dish_type": "salad"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Indian cuisine",
+        "ingredient": "onion"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_type",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Mexico",
+        "dish_type": "bread"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Korean cuisine",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Japan",
+        "ingredient": "butter"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "ingredient": "potato",
+        "dish_type": "salad"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_continent_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "South America",
+        "ingredient": "pork"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Greek cuisine",
+        "ingredient": "butter"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_type",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "South Korea",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Mexican cuisine",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Argentina",
+        "ingredient": "sugar"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "ingredient": "fish",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "bread"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Spanish cuisine",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "China",
+        "ingredient": "beef"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "ingredient": "cheese",
+        "dish_type": "bread"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_continent_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Oceania",
+        "ingredient": "bread"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Thai cuisine",
+        "ingredient": "sugar"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_type",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Sweden",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Greek cuisine",
+        "dish_type": "salad"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_country_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "India",
+        "ingredient": "cheese"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "ingredient": "rice",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_continent_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Africa",
+        "ingredient": "soybean"
+      }
+    },
+    {
+      "complexity": "L1",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l1_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "cuisine": "Italian cuisine",
+        "ingredient": "butter"
+      }
+    },
+    {
+      "complexity": "L2",
+      "reason": "gold_overlap",
+      "detail": "gold_containment=1.00, size_ratio=0.90 with dishes_l2_0002",
+      "template_id": "dishes_l2_continent_two_ingredients",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "ingredient_1": "sugar",
+        "ingredient_2": "egg"
+      }
+    },
+    {
+      "complexity": "L2",
+      "reason": "gold_overlap",
+      "detail": "gold_containment=1.00, size_ratio=0.89 with dishes_l2_0001",
+      "template_id": "dishes_l2_country_two_ingredients",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Indonesia",
+        "ingredient_1": "sugar",
+        "ingredient_2": "garlic"
+      }
+    },
+    {
+      "complexity": "L2",
+      "reason": "gold_overlap",
+      "detail": "gold_containment=1.00, size_ratio=0.75 with dishes_l2_0005",
+      "template_id": "dishes_l2_country_two_ingredients",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Nigeria",
+        "ingredient_1": "salt",
+        "ingredient_2": "fish"
+      }
+    },
+    {
+      "complexity": "L2",
+      "reason": "gold_overlap",
+      "detail": "gold_containment=1.00, size_ratio=0.80 with dishes_l2_0012",
+      "template_id": "dishes_l2_country_two_ingredients",
+      "constraints": {
+        "kind": "dish",
+        "country_of_origin": "Indonesia",
+        "ingredient_1": "flour",
+        "ingredient_2": "egg"
+      }
+    },
+    {
+      "complexity": "L2",
+      "reason": "gold_overlap",
+      "detail": "gold_jaccard=0.96 with dishes_l2_0006",
+      "template_id": "dishes_l2_continent_two_ingredients",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "ingredient_1": "salt",
+        "ingredient_2": "egg"
+      }
+    },
+    {
+      "complexity": "L2",
+      "reason": "gold_overlap",
+      "detail": "gold_jaccard=1.00 with dishes_l2_0009",
+      "template_id": "dishes_l2_continent_two_ingredients",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "ingredient_1": "garlic",
+        "ingredient_2": "egg"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Portuguese",
+        "cuisine": "Chinese cuisine",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "cake",
+        "dish_type": "pizza"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "China",
+        "ingredient": "cheese",
+        "dish_type": "dumpling"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "North America",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "rice"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Mercosur",
+        "cuisine": "Chinese cuisine",
+        "ingredient": "sugar"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Arabic",
+        "cuisine": "Russian cuisine",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "pancake",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Russia",
+        "ingredient": "maize",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Africa",
+        "cuisine": "Turkish cuisine",
+        "ingredient": "sugar"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "African Union",
+        "cuisine": "Vietnamese cuisine",
+        "ingredient": "mushroom"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "English",
+        "cuisine": "French cuisine",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Germany",
+        "ingredient": "butter",
+        "dish_type": "dumpling"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Europe",
+        "cuisine": "Indian cuisine",
+        "ingredient": "mushroom"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Commonwealth of Nations",
+        "cuisine": "Russian cuisine",
+        "ingredient": "beef"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Turkish",
+        "cuisine": "French cuisine",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "lasagne",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Mexico",
+        "ingredient": "maize",
+        "dish_type": "bread"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Oceania",
+        "cuisine": "Turkish cuisine",
+        "ingredient": "butter"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "OECD",
+        "cuisine": "Indian cuisine",
+        "ingredient": "milk"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "French",
+        "cuisine": "Vietnamese cuisine",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "pancake",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Russia",
+        "ingredient": "mushroom",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "cuisine": "Indian cuisine",
+        "ingredient": "tomato"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "African Union",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "cheese"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Arabic",
+        "cuisine": "Russian cuisine",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "hamburger",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Japan",
+        "ingredient": "milk",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Oceania",
+        "cuisine": "Greek cuisine",
+        "ingredient": "salt"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Commonwealth of Nations",
+        "cuisine": "French cuisine",
+        "ingredient": "soybean"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "French",
+        "cuisine": "Chinese cuisine",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "croissant",
+        "dish_type": "salad"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Japan",
+        "ingredient": "mushroom",
+        "dish_type": "salad"
+      },
+      "error": "WDQS transient failure: WDQS transient HTTP 502"
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "North America",
+        "cuisine": "Thai cuisine",
+        "ingredient": "bread"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Arab League",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "fish"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Russian",
+        "cuisine": "Korean cuisine",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "lasagne",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Germany",
+        "ingredient": "mushroom",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Oceania",
+        "cuisine": "French cuisine",
+        "ingredient": "soybean"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Mercosur",
+        "cuisine": "Russian cuisine",
+        "ingredient": "mushroom"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "English",
+        "cuisine": "Spanish cuisine",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "paella",
+        "dish_type": "cake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Turkey",
+        "ingredient": "egg",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "milk"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "OECD",
+        "cuisine": "Mexican cuisine",
+        "ingredient": "fish"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Turkish",
+        "cuisine": "Greek cuisine",
+        "dish_type": "salad"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "falafel",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Nigeria",
+        "ingredient": "maize",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Oceania",
+        "cuisine": "Italian cuisine",
+        "ingredient": "fish"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "United Nations",
+        "cuisine": "Chinese cuisine",
+        "ingredient": "beef"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "German",
+        "cuisine": "Vietnamese cuisine",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "lasagne",
+        "dish_type": "dumpling"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Pakistan",
+        "ingredient": "egg",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Oceania",
+        "cuisine": "Italian cuisine",
+        "ingredient": "egg"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Arab League",
+        "cuisine": "Italian cuisine",
+        "ingredient": "beef"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Portuguese",
+        "cuisine": "French cuisine",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Indonesia",
+        "ingredient": "potato",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "South America",
+        "cuisine": "Russian cuisine",
+        "ingredient": "mushroom"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "African Union",
+        "cuisine": "French cuisine",
+        "ingredient": "onion"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Hindi",
+        "cuisine": "Indian cuisine",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "lasagne",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Russia",
+        "ingredient": "pork",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Europe",
+        "cuisine": "Thai cuisine",
+        "ingredient": "beef"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "United Nations",
+        "cuisine": "Greek cuisine",
+        "ingredient": "tomato"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Italian",
+        "cuisine": "Indian cuisine",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "hamburger",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Spain",
+        "ingredient": "potato",
+        "dish_type": "pizza"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Oceania",
+        "cuisine": "Indian cuisine",
+        "ingredient": "flour"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "United Nations",
+        "cuisine": "Russian cuisine",
+        "ingredient": "butter"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "German",
+        "cuisine": "Spanish cuisine",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "hummus",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Vietnam",
+        "ingredient": "beef",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "cuisine": "Turkish cuisine",
+        "ingredient": "milk"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "OPEC",
+        "cuisine": "French cuisine",
+        "ingredient": "pork"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Japanese",
+        "cuisine": "Greek cuisine",
+        "dish_type": "pizza"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "croissant",
+        "dish_type": "cake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Iran",
+        "ingredient": "cheese",
+        "dish_type": "bread"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Africa",
+        "cuisine": "Mexican cuisine",
+        "ingredient": "sugar"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "OPEC",
+        "cuisine": "Greek cuisine",
+        "ingredient": "rice"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Portuguese",
+        "cuisine": "Japanese cuisine",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "paella",
+        "dish_type": "dumpling"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Israel",
+        "ingredient": "sugar",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Europe",
+        "cuisine": "Chinese cuisine",
+        "ingredient": "cheese"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Arab League",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "soybean"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Portuguese",
+        "cuisine": "Chinese cuisine",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "falafel",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Ukraine",
+        "ingredient": "salt",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "cuisine": "French cuisine",
+        "ingredient": "garlic"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "ASEAN",
+        "cuisine": "Korean cuisine",
+        "ingredient": "egg"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "English",
+        "cuisine": "Indian cuisine",
+        "dish_type": "sandwich"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "cake",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Pakistan",
+        "ingredient": "tomato",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "North America",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "onion"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "European Union",
+        "cuisine": "French cuisine",
+        "ingredient": "cheese"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Spanish",
+        "cuisine": "Indian cuisine",
+        "dish_type": "bread"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "sushi",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Poland",
+        "ingredient": "pork",
+        "dish_type": "sushi"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "cuisine": "Greek cuisine",
+        "ingredient": "mushroom"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Arab League",
+        "cuisine": "Chinese cuisine",
+        "ingredient": "onion"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "German",
+        "cuisine": "Russian cuisine",
+        "dish_type": "soup"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "paella",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Morocco",
+        "ingredient": "tomato",
+        "dish_type": "pizza"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Africa",
+        "cuisine": "Italian cuisine",
+        "ingredient": "milk"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "Arab League",
+        "cuisine": "Russian cuisine",
+        "ingredient": "tomato"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Italian",
+        "cuisine": "Indian cuisine",
+        "dish_type": "dessert"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "hummus",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "United States",
+        "ingredient": "garlic",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "North America",
+        "cuisine": "Russian cuisine",
+        "ingredient": "rice"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "European Union",
+        "cuisine": "Thai cuisine",
+        "ingredient": "bread"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Hindi",
+        "cuisine": "Japanese cuisine",
+        "dish_type": "bread"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "cake",
+        "dish_type": "cake"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "United States",
+        "ingredient": "pork",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Asia",
+        "cuisine": "Indian cuisine",
+        "ingredient": "butter"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "United Nations",
+        "cuisine": "French cuisine",
+        "ingredient": "soybean"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "French",
+        "cuisine": "Italian cuisine",
+        "dish_type": "sandwich"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "pancake",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Vietnam",
+        "ingredient": "maize",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "North America",
+        "cuisine": "Korean cuisine",
+        "ingredient": "bread"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_org_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_member_of": "OPEC",
+        "cuisine": "Spanish cuisine",
+        "ingredient": "salt"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_language_cuisine_type",
+      "constraints": {
+        "kind": "dish",
+        "country_official_language": "Italian",
+        "cuisine": "Mexican cuisine",
+        "dish_type": "dumpling"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_shared_ingredient_with_seed_type",
+      "constraints": {
+        "kind": "dish",
+        "shares_ingredient_with_dish": "croissant",
+        "dish_type": "stew"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "not_enough_gold",
+      "template_id": "dishes_l3_border_ingredient_type",
+      "constraints": {
+        "kind": "dish",
+        "origin_country_borders": "Iran",
+        "ingredient": "salt",
+        "dish_type": "pancake"
+      }
+    },
+    {
+      "complexity": "L3",
+      "reason": "WDQSTransientError",
+      "template_id": "dishes_l3_continent_cuisine_ingredient",
+      "constraints": {
+        "kind": "dish",
+        "country_continent": "Europe",
+        "cuisine": "Italian cuisine",
+        "ingredient": "cheese"
+      },
+      "error": "WDQS transient failure after 1 retries: HTTPSConnectionPool(host='query.wikidata.org', port=443): Read timed out. (read timeout=25)"
+    }
+  ],
+  "output_path": "out_wikidata_benchmark/domain_outputs/dishes.jsonl",
+  "audit_path": "out_wikidata_benchmark/domain_outputs/dishes_generation_audit.json",
+  "checkpoint_path": "out_wikidata_benchmark/domain_outputs/dishes_generation_checkpoint.json",
+  "updated_at": "2026-06-13 18:12:51"
+}

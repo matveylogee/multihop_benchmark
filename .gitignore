@@ -75,3 +75,6 @@ wikidata/out_wikidata_benchmark/cache_gold_enrichment
 # Local Wikidata benchmark cache/output
 multihop_benchmark_modular/out_wikidata_benchmark/bad_responses/
 multihop_benchmark_modular/out_wikidata_benchmark/cache/
+
+# IMDb cache/output
+multihop_benchmark_modular/out_wikidata_benchmark/imdb_cache/

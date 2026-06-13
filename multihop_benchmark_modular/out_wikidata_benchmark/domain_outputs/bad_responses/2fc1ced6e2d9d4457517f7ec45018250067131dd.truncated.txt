@@ -1,0 +1,7184 @@
+{
+  "head" : {
+    "vars" : [ "person", "personLabelEn", "personLabelRu", "birthDate" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q370988"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-10-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Satoshi Horinouchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сатоси Хориноти"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q247068"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-10-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Futoshi Ikeda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Футоши Икеда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q496046"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-08-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yutaka Akita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ютака Акита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q732991"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-04-17T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Satoshi Yamaguchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сатоси Ямагути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q248239"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-06-17T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroyuki Shirai"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироюки Сираи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q209990"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-09-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masao Kiba"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масао Киба"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q197878"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-04-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryota Moriwaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рёта Мориваки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q195091"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-12-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shohei Abe"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сёхэи Абэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q386915"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shosuke Katayama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сёсукэ Катаяма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q718892"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-09-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kunie Kitamoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Куниэ Китамото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q718906"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-12-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenji Haneda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэндзи Ханэда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q718923"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-10-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arata Kodama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Арата Кодама"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q718886"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-09-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroyuki Komoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироюки Комото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q719498"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-02-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Gakuto Kondo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Гакуто Кондо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210228"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-01-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kozo Yuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кодзо Юки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210107"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-10-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takumi Shimohira"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуми Симохира"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q719637"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-11-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takahiro Masukawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такахиро Масукава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q733555"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-09-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teruyuki Moniwa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тэруюки Монива"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q719633"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-07-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yosuke Ishibitsu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёсукэ Исибицу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q248209"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-05-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuji Hashimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юдзи Хасимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q247942"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-06-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuki Teshima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзуки Тэсима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47656"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-12-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takashi Umezawa"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q264087"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-09-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobuhisa Urata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Нобухиса Урата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275697"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-04-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatsuya Masushima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тацуя Масусима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275822"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-07-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toru Araiba"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тоору Араиба"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47318"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-10-31T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Makoto Yamazaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Макото Ямадзаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q379031"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-07-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taishi Tsukamoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таиси Цукамото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275811"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-10-30T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yusuke Igawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юсукэ Игава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47396"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-11-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshi Saito"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275841"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-05-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masato Morishige"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масато Морисигэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q270776"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-10-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Azusa Iwashimizu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Адзуса Ивасимидзу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q497670"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-04-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazunari Okayama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзунари Окаяма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q210099"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-09-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoki Ishikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоки Исикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q511457"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-01-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoshiaki Fujita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёсиаки Фудзита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q194965"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-10-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sota Nakazawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сота Накадзава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47327"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-03-05T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenji Sakaguchi"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q47395"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-08-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tetsuya Ogura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тэцуя Огура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275962"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-07-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hokuto Nakamura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хокуто Накамура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q359732"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-03-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoki Matsuda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоки Мацуда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q380690"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-01-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akira Kaji"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Акира Кадзи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q331984"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-09-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuki Abe"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юки Абэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q719641"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-04-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kota Fujimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кота Фудзимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q76955"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-12-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Michihiro Yasuda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Митихиро Ясуда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q380696"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-02-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsuneyasu Miyamoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Цунэясу Миямото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q195424"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-07-31T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shigenori Hagimura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сигэнори Хагимура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q359752"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-01-30T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daiki Iwamasa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дайки Ивамаса"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275827"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-07-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroki Ito"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироки Ито"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251446"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-06-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Soichi Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Соити Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251498"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-07-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masashi Wakasa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масаси Вакаса"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q251454"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-11-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Makoto Rindo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Макото Риндо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q195435"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-10-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoshiaki Maruyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёсиаки Маруяма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573787"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-05-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kentaro Oi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнтаро Оой"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q290242"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-02-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takanori Nakajima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таканори Накадзима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q580570"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-07-30T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsutoshi Tsushima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мицутоси Цусима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763458"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-06-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teruaki Kobayashi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тэруаки Кобаяси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q558869"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-05-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomoaki Makino"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томоаки Макино"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q276297"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-10-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takanobu Komiyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таканобу Комияма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763915"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-07-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kohei Usui"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кохэи Усуи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q641224"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-07-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jo Kanazawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзё Канадзава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q926833"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-08-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daigo Nishi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дайго Ниси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q600968"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-09-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroki Mizumoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироки Мидзумото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763571"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-12-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatsuya Ishikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тацуя Исикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q669720"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-08-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuyoshi Mikami"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзуёси Миками"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q641499"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-09-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keisuke Iwashita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэисукэ Ивасита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q641536"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-06-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsuru Chiyotanda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мицуру Тиётанда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q771091"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-08-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masayuki Yanagisawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масаюки Янагисава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q582606"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-10-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshige Yanagimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хиросигэ Янагимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q768574"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-09-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takeshi Watanabe"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такэси Ватанабэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524269"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-04-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takayuki Komine"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такаюки Коминэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524244"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-11-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kensaku Omori"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнсаку Оомори"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q601466"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-06-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shuhei Terada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сюхэй Тэрада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524525"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-11-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomohiko Ikeuchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томохико Икэути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524291"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-07-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tetsuya Yamazaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тэцуя Ямадзаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2706333"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-06-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taikai Uemoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таикаи Уэмото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524655"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-10-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kojiro Kaimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кодзиро Каимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763475"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-04-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daisuke Tomita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даисукэ Томита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q891645"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-07-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kiyotaka Miyoshi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Киётака Миёси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2690357"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-09-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taro Ichiki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таро Итики"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q768894"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-12-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kohei Mihara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кохэи Михара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q642778"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-10-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jun Uchida"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюн Утида"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573320"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-12-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinji Tsujio"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Синдзи Цудзио"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q762807"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-07-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Arata Sugiyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Арата Сугияма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573356"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-04-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasushi Kita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясуси Кита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q762778"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-05-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seiji Kaneko"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сэидзи Канэко"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573362"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-09-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryo Kobayashi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рё Кобаяси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573338"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-07-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takuya Miyamoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуя Миямото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q275974"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-08-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yūki Fukaya"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юки Фукая"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573795"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-07-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jiro Kamata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзиро Камата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q762838"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-04-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryu Okada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рю Окада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573716"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-04-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yusuke Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юсукэ Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763851"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-07-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kohei Morita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кохэи Морита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q763939"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-01-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daiki Niwa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даики Нива"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q558804"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-09-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keisuke Tsuboi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэйсукэ Цубои"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q558925"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuzo Kurihara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юдзо Курихара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q558814"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-08-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masahiko Inoha"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масахико Иноха"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2712922"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-07-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Makoto Kakuda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Макото Какуда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q303940"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-05-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kentaro Sawada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнтаро Савада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q549513"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-08-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Makoto Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Макото Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q310598"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-04-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Marcus Tulio Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Маркус Тулио Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q276256"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-05-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tadaaki Hirakawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тадааки Хиракава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q276233"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-10-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daisuke Nasu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даисукэ Насу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q331968"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-02-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuji Nakazawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юдзи Накадзава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q276237"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-30T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenichi Kaga"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнъити Кага"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1059852"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-04-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yugo Ichiyanagi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юго Итиянаги"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092038"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-04-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroyuki Inagaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироюки Инагаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q981999"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-10-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryuzo Morioka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рюдзо Мориока"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254364"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-04-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Norihiro Satsukawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Норихиро Сацукава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q964893"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-04-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsuru Nagata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мицуру Нагата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092078"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-04-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shohei Ikeda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сёхэи Икэда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389740"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-04-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsuteru Watanabe"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мицутэру Ватанабэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389771"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-03-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haruki Seto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Харуки Сэто"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254486"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-08-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Rikiya Kawamae"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рикия Кавамаэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092227"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-09-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masahiro Koga"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масахиро Кога"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254425"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-08-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatsuya Murata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тацуя Мурата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389763"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-06-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shigeki Tsujimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сигэки Цудзимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092221"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-09-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Michitaka Akimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мититака Акимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092221"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-10-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Michitaka Akimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мититака Акимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q951766"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-05-05T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shusuke Tsubouchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сюсукэ Цуботи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q977814"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-05-05T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoki Mori"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3080610"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-01-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keiji Watanabe"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэидзи Ватанабэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q982139"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-07-31T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hayuma Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хаюма Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q982168"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuhei Tokunaga"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юхэй Токунага"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1255943"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-07-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Manabu Ikeda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Манабу Икэда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524497"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-01-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hideki Uchidate"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хидэки Утидатэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524509"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-05-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Junji Nishizawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюндзи Нисидзава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524448"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-04-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takahiro Yamanishi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такахиро Яманиси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3080511"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-06-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hideomi Yamamoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хидэоми Ямамото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3080501"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-07-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seitaro Tomisawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сэитаро Томисава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524412"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-07-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuichi Nemoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юити Нэмото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653533"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-06-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akira Takeuchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Акира Такэути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1256016"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-06-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takehito Suzuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такэхито Судзуки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1255920"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-06-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shigeki Kurata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сигэки Курата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1256025"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-04-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ichizo Nakata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Итидзо Наката"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1256047"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-10-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tetsuya Ito"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тецуя Ито"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1366012"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-06-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuhiko Chiba"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзухико Тиба"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524520"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-04-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Megumu Yoshida"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мэгуму Ёсида"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q965527"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-06-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shunsuke Tsutsumi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сюнсукэ Цуцуми"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1255993"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-10-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hideaki Mori"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хидэаки Мори"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573689"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-06-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yusuke Murayama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юсукэ Мураяма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573817"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-09-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuya Maeda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзуя Маэда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573809"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-09-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasumasa Nishino"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясумаса Нисино"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573653"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-07-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shogo Nishikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сёго Нисикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1574414"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-11-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuhiro Suzuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзухиро Судзуки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573800"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-05-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shun Morishita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сюн Морисита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653774"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-05-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenji Arai"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэндзи Араи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q965370"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-10-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshi Nakano"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироси Накано"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q982145"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-10-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoya Kondo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоя Кондо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1653553"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-11-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takuya Sonoda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуя Сонода"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q957989"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-07-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoki Soma"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоки Сома"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1654056"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-09-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yusuke Nakatani"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юсукэ Накатани"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q618553"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-04-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takuya Iwata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуя Ивата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1574374"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-05-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasuhiro Hiraoka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясухиро Хираока"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1524511"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-11-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daisuke Saito"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дайсукэ Саито"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1573700"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-08-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takuro Nishimura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуро Нисимура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q616173"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-06-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eisuke Nakanishi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эйсукэ Наканиси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093514"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-09-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Wataru Hashimoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ватару Хасимото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185542"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-11-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshi Miyazawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироси Миядзава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389865"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-08-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osamu Umeyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Осаму Умэяма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3080621"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-08-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryota Aoki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рёта Аоки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092086"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-10-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatsunori Yamagata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тацунори Ямагата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092089"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-04-17T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuki Okubo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юки Оокубо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389871"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-08-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinji Jojo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Синдзи Дзёдзё"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092207"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-05-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsuyuki Yoshihiro"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мицуюки Ёсихиро"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254742"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-04-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomohiro Katanosaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томохиро Катаносака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254769"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-05-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoki Hiraoka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоки Хираока"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3078619"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-04-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroyuki Kobayashi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироюки Кобаяси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092324"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-12-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taisuke Muramatsu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таисукэ Мурамацу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254762"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-05-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masaharu Nishi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масахару Ниси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3248443"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-05-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Sota Kasahara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сота Касахара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3248459"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-10-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yusaku Tanioku"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юсаку Таниоку"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092689"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-07-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takashi Miki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такаси Мики"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092705"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-10-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takumi Wada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуми Вада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3080494"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-06-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yosuke Ikehata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёсукэ Икэхата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1187027"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-03-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ko Ishikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ко Исикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3080481"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-06-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenta Togawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнта Тогава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092685"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-04-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yohei Fukumoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёхэи Фукумото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2026342"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-09-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoichi Kajiyama"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3080632"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-08-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hikaru Mita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хикару Мита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3081041"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-07-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinya Kawashima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Синъя Кавасима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3081041"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-07-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinya Kawashima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Синъя Кавасима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1917998"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-11-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoki Mori"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоки Мори"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3081062"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-02-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takashi Hirajima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такаси Хирадзима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185650"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-03-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsutomu Nishino"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Цутому Нисино"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185492"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-06-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshihiro Yoshimura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тосихиро Ёсимура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185561"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-07-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masaaki Takada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масааки Такада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1440389"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-10-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Noritada Saneyoshi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Норитада Санэёси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1771454"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-10-17T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomokazu Nagira"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томокадзу Нагира"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2058062"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-04-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hirofumi Moriyasu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хирофуми Мориясу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185878"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-02-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takashi Kiyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такаси Кияма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1092437"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-07-31T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yukio Tsuchiya"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юкио Цутия"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1925143"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-08-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masaharu Suzuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масахару Судзуки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q982115"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-05-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daisuke Ichikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дайсукэ Итикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1809436"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-06-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsuhiro Kawamoto"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3093697"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-08-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuki Ichikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юки Итикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2092995"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-12-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoshinori Hurube"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёсинори Фурубэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2092740"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-09-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsuyoshi Furukawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Цуёси Фурукава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1776115"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-05-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masaki Yanagawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масаки Янагава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093032"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-10-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takuya Kawaguchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуя Кавагути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093264"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-02-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryuji Tabuchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рюдзи Табути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389886"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-04-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masaki Ogawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масаки Огава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093068"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-03-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoya Ishigami"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоя Исигами"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1930704"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-04-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshihide Saito"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тосихидэ Сайто"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093467"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-09-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoya Shibamura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наоя Сибамура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1151227"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-05-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinsuke Shiotani"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Синсукэ Сиотани"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1151199"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-08-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yohei Kurakawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёхэи Куракава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1151217"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-04-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teruki Tabata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тэруки Табата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1150965"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-11-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroki Fujiharu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироки Фудзихару"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1151221"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-11-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shogo Kobara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сёго Кобара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825250"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-10-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenichi Serada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнъити Сэрада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1824258"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-08-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kozo Hosokawa"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1824421"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-04-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atsuo Watanabe"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825322"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-10-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Teppei Isaka"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254812"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-10-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koichi Sugiyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Коити Сугияма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2407544"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-08-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryuji Michiki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рюдзи Митики"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185564"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-11-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taku Watanabe"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таку Ватанабэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825379"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-09-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takahiro Sasaki"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389800"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-03-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasunari Hiraoka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясунари Хираока"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1824691"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-02-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kentaro Ishikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнтаро Исикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2155402"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-06-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tadashi Nakamura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тадаси Накамура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389821"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-07-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seiichiro Okuno"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сэйитиро Окуно"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389981"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-07-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takumi Morikawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такуми Морикава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1390166"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-09-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kensuke Nebiki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнсукэ Нэбики"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q982159"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-07-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kosuke Ota"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Косукэ Ота"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1391194"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-06-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ichiei Muroi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Итиэй Мурои"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1390028"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-07-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Satoru Suzuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сатору Судзуки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1391229"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-05-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akihiro Tabata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Акихиро Табата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825398"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-05-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kiyoshi Nakamura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Киёси Накамура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2447215"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-10-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hideto Suzuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хидэто Судзуки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q982151"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-11-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazumichi Takagi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзумити Такаги"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1389837"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-11-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shintaro Harada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Синтаро Харада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1939809"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-11-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takayuki Chano"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такаюки Тяно"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185079"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-05-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kosuke Kimura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Косукэ Кимура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1824296"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-06-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masaru Hirayama"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185628"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-01-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuhisa Iijima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзухиса Иидзима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1824392"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-04-30T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuo Shimizu"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185473"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-05-31T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenichiro Tokura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнъитиро Токура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185483"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-06-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keiju Karashima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэидзю Карасима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185571"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-08-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenichi Sugano"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнъити Сугано"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254864"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-09-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jin Sato"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзин Сато"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185459"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-06-17T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshimi Kikuchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тосими Кикути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1185465"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-08-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kei Mikuriya"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэи Микурия"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1440154"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-07-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toru Irie"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тоору Ириэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825555"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-06-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobutaka Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Нобутака Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2153463"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-07-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenta Mukuhara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнта Мукухара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2153763"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-10-31T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuki Inoue"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юки Иноэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093195"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-05-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shoji Nonoshita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сёдзи Ноносита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093566"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-06-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hironari Iwamoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хиронари Ивамото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093586"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-05-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoshitaka Fujisaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёситака Фудзисаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2092908"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-07-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daishi Hiramatsu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даиси Хирамацу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2092916"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroyuki Omata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироюки Омата"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093247"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-07-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Katsushi Kurihara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кацуси Курихара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1254832"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-02-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshi Noguchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироси Ногути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2092824"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-12-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kosuke Kikuchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Косукэ Кикути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1151439"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-07-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seiichi Ogawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сэйити Огава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2402438"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-09-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoto Matsuo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Наото Мацуо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2093231"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-03-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomoya Ugajin"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томоя Угадзин"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825261"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-10-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuhisa Irii"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзухиса Ирии"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825526"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-05-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tadashi Koya"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тадаси Коя"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2230624"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-09-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobuhisa Yamada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Нобухиса Ямада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1825793"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-08-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seiji Kubo"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3243225"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-01-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshi Moriyasu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироси Мориясу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1955512"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-08-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takashi Kojima"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245205"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-05-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takahiro Yamaguchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такахиро Ямагути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3243261"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-09-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takayuki Odajima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такаюки Одадзима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1974666"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-06-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Go Oiwa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Го Оива"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3243400"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-11-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masakazu Washida"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масакадзу Васида"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3243294"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-07-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshi Kichise"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироси Китисэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244787"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-04-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroyuki Tazawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироюки Тадзава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244826"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-05-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jun Ideguchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюн Идэгути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3181579"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-04-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masaaki Koido"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масааки Коидо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245117"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-10-05T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenta Kifuji"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнта Кифудзи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245157"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-07-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jungo Kono"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюнго Коно"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245184"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-08-08T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takashi Kuramoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такаси Курамото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1954686"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-11-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naoki Makino"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1955361"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-09-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takao Yamauchi"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244999"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-11-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatsuya Yamashita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тацуя Ямасита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245072"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-06-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masakazu Tashiro"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масакадзу Тасиро"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2314068"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-05-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasuhiro Hato"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясухиро Хато"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1982546"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-04-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masahiro Ando"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масахиро Андо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251607"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-08-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Satoru Kobayashi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сатору Кобаяси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2464450"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-04-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kenichi Uemura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэнъити Уэмура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244778"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1975-02-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Junji Sato"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251155"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-02-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toru Ojima"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251219"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-04-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masahiro Kano"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3298215"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-04-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinya Hagihara"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251169"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-07-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Makoto Takeya"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251179"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-07-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Naotaka Takeda"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3298130"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-09-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuji Nakayoshi"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3298295"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-04-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shinichi Fujita"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251233"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-09-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Koichi Yokozeki"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3298449"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-12-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Satoshi Yashiro"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251283"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-05-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsuyoshi Nakao"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1991443"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-10-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshihiko Uchiyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тосихико Утияма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1955413"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-05-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobuyuki Oishi"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3243405"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-06-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Haruhiko Sato"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Харухико Сато"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1847823"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-06-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoshinobu Minowa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёсинобу Минова"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3608885"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-08-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nagisa Sakurauchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Нагиса Сакураути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3735517"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-07-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hirofumi Watanabe"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хирофуми Ватанабэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245219"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-12T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Nobutaka Suzuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Нобутака Судзуки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1953240"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1974-07-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kei Taniguchi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэи Танигути"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3616048"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-11-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomohiko Miyazaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томохико Миядзаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245014"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-05T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takatoshi Matsumoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такатоси Мацумото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299355"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-07-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuki Tsuda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзуки Цуда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2246023"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-05-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hideki Sahara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хидэки Сахара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4700982"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-04-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akiko Sudō"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Акико Судо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299363"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-04-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuya Iwakura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзуя Ивакура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299313"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-06-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Keiichi Misawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэйити Мисава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3573285"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-04-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yusuke Murakami"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юсукэ Мураками"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3264088"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-06-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hideaki Matsuura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хидэаки Мацура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299558"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-10-17T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shota Kimura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сёта Кимура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2464463"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-11-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akira Narahashi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Акира Нарахаси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245695"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-07-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tamotsu Komatsuzaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тамоцу Комацудзаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245683"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1973-04-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsunori Yamao"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мицунори Ямао"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244837"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-08-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hideaki Tominaga"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хидэаки Томинага"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244932"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-08-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daiki Wakamatsu"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даики Вакамацу"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244873"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-08-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eiji Hanayama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эйдзи Ханаяма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3244948"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-05-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daisuke Nitta"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даисукэ Нитта"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245679"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-05-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoshifumi Ono"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёсифуми Ооно"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245320"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-11-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yoichi Akiba"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ёити Акиба"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245225"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-05-16T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Akihiro Sakata"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Акихиро Саката"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245305"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-04-26T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ken Yorii"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэн Ёрии"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245374"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-06-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Junya Hosokawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюнъя Хосокава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245296"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-01-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomonobu Hiroi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томонобу Хирои"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300208"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-07-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kohei Matsushita"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кохэи Мацусита"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245399"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1986-01-31T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Mitsuki Ichihara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Мицуки Итихара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245324"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-10-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Taku Ishihara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Таку Исихара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245272"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-01-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jun Sonoda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюн Сонода"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299440"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-09-01T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Jun Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюн Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1993131"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1970-08-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Masahiro Endo"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Масахиро Эндо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5209172"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-06-30T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daiki Oizumi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даики Ойдзуми"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5209175"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-10-05T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daiki Umei"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даики Умэи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q5209078"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-12-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daichi Inui"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даити Инуи"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3251634"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-09-13T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomohide Nakazawa"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3263396"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1971-12-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Daisuke Ishihara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Даисукэ Исихара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3264040"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-05-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Chikayuki Mochizuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тикаюки Мотидзуки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q1996664"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-11-15T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuzo Kobayashi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юдзо Кобаяси"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300296"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-06-23T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuki Hamano"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юки Хамано"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3298012"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-07-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuki Imamura"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300192"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-10-04T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yuki Okada"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юки Окада"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245392"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-04-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Junya Tanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Дзюнъя Танака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300315"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-05-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shingo Hoshino"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Синго Хосино"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299839"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1977-07-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tomonobu Hayakawa"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Томонобу Хаякава"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299605"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-09-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eigo Sekine"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эйго Сэкинэ"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299695"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-08-27T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tatsuyuki Tomiyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тацуюки Томияма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2479991"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1976-11-20T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atsushi Yoneyama"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ацуси Ёнэяма"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299876"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-06-25T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasuhiro Nomoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясухиро Номото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299748"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1983-12-09T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsubasa Oshima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Цубаса Оосима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299522"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-05-06T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tadayo Fukuō"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тадаё Фукуо"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299632"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-05-11T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takafumi Mikuriya"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такафуми Микурия"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299857"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-07-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kei Omoto"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кэи Омото"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299790"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-11-18T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Atsushi Ichimura"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ацуси Итимура"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299904"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-12-07T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Eiichiro Ozaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Эйитиро Одзаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299964"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1985-07-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Tsuneyuki Ueda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Цунэюки Уэда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300153"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1982-05-03T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasuomi Kugisaki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясуоми Кугисаки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299596"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-01-29T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ryujiro Ueda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Рюдзиро Уэда"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299465"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-04-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takahiro Oshima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такахиро Оосима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299738"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-01-22T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Seiko Yamanaka"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сэико Яманака"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3299648"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1989-03-21T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Takefumi Toma"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Такэфуми Тома"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300117"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-08-14T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Kazuto Tsuyuki"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Кадзуто Цуюки"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300096"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1984-09-10T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yasumichi Uchima"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Ясумити Утима"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300105"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1987-04-24T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Hiroshi Ichihara"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Хироси Итихара"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3300306"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1988-06-02T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shunsuke Iwanuma"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Сюнсукэ Иванума"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4284033"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1972-08-19T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Osamu Adachi"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Осаму Адати"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q2143068"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1978-07-05T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Yushi Soda"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Юси Сода"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3245756"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1981-05-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Toshikazu Kato"
+      },
+      "personLabelRu" : {
+        "xml:lang" : "ru",
+        "type" : "literal",
+        "value" : "Тосикадзу Като"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q4845570"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1979-04-28T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Shingo Ito"
+      }
+    }, {
+      "person" : {
+        "type" : "uri",
+        "value" : "http://www.wikidata.org/entity/Q3246366"
+      },
+      "birthDate" : {
+        "datatype" : "http://www.w3.org/2001/XMLSchema#dateTime",
+        "type" : "literal",
+        "value" : "1980-04-17T00:00:00Z"
+      },
+      "personLabelEn" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "Ke

@@ -71,3 +71,7 @@ kqapro/artifacts_kqapro_stage3/jsonl/kqapro_filtered_candidates.jsonl
 kqapro/artifacts_kqapro_stage2/csv/kqapro_complex_candidates.csv
 kqapro/artifacts_kqapro_stage2/jsonl/kqapro_all_normalized.jsonl
 wikidata/out_wikidata_benchmark/cache_gold_enrichment
+
+# Local Wikidata benchmark cache/output
+multihop_benchmark_modular/out_wikidata_benchmark/bad_responses/
+multihop_benchmark_modular/out_wikidata_benchmark/cache/

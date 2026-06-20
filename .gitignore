@@ -78,3 +78,19 @@ multihop_benchmark_modular/out_wikidata_benchmark/cache/
 
 # IMDb cache/output
 multihop_benchmark_modular/out_wikidata_benchmark/imdb_cache/
+
+# Dataset caches
+**/_cache_raw/
+
+# Downloaded/generated caches
+wikidata/out_wikidata_benchmark/imdb_cache/
+
+# Large generated dataset intermediates
+**/kqapro_all_normalized.csv
+**/kqapro_all_normalized.jsonl
+**/kqapro_complex_candidates.csv
+**/kqapro_complex_candidates.jsonl
+**/kqapro_filtered_candidates.csv
+**/kqapro_filtered_candidates.jsonl
+**/2wikimultihop_all_normalized.json
+**/2wikimultihop_all_normalized.jsonl

@@ -1,0 +1,17 @@
+model_name,run_id,setting,language,expected_records,input_rows,known_unique_records,scored_records,invalid_records,review_no_score_records,review_scored_records,coverage_rate,scored_coverage_rate,provisional_benchmark_score,official_benchmark_score,is_official_complete,answerable_score,zero_gold_score,mean_coverage_group,mean_precision_group,mean_constraint_group,mean_hallucination_group
+calibration-suite,case_01,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,100.0,,False,100.0,,1.0,1.0,1.0,0.0
+calibration-suite,case_14,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,100.0,,False,,100.0,,,,
+calibration-suite,case_02,scoring-calibration-v1,ru,1300,1,1,1,0,0,1,0.0007692307692307692,0.0007692307692307692,95.0,,False,95.0,,1.0,1.0,1.0,0.0
+calibration-suite,case_04,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,87.7968,,False,87.7968,,0.8,1.0,1.0,0.0
+calibration-suite,case_13,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,84.020078,,False,84.020078,,1.0,0.6325,0.849085,0.0
+calibration-suite,case_05,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,65.7712,,False,65.7712,,0.4,1.0,1.0,0.0
+calibration-suite,case_03,scoring-calibration-v1,ru,1300,1,1,1,0,0,1,0.0007692307692307692,0.0007692307692307692,54.940789,,False,54.940789,,0.225,0.325,0.664474,0.0
+calibration-suite,case_09,scoring-calibration-v1,ru,1300,1,1,1,0,0,1,0.0007692307692307692,0.0007692307692307692,51.258101,,False,51.258101,,0.4,0.46,0.753684,0.0
+calibration-suite,case_10,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,43.074254,,False,43.074254,,0.4,0.46,0.643158,0.0
+calibration-suite,case_08,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,31.515098,,False,31.515098,,0.4,0.46,0.545976,0.48
+calibration-suite,case_11,scoring-calibration-v1,ru,1300,1,1,1,0,0,1,0.0007692307692307692,0.0007692307692307692,28.071316,,False,28.071316,,0.0,0.1,0.589474,0.0
+calibration-suite,case_16,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,15.0,,False,,15.0,,,,
+calibration-suite,case_06,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,10.625,,False,10.625,,0.0,0.1,0.0,0.0
+calibration-suite,case_12,scoring-calibration-v1,ru,1300,1,1,1,0,0,1,0.0007692307692307692,0.0007692307692307692,10.0,,False,10.0,,0.0,0.1,0.409211,0.0
+calibration-suite,case_07,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,5.0,,False,5.0,,0.0,0.1,0.243293,0.8
+calibration-suite,case_15,scoring-calibration-v1,ru,1300,1,1,1,0,0,0,0.0007692307692307692,0.0007692307692307692,3.0,,False,,3.0,,,,

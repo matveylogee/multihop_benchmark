@@ -1,0 +1,15 @@
+model_name,run_id,setting,language,slice_type,slice_value,n_records,mean_score,median_score
+yandexgpt-manual-test,default,default,ru,subset,easy_control,1,100.0,100.0
+yandexgpt-manual-test,default,default,ru,subset,hard_core,5,75.4235208,89.333333
+yandexgpt-manual-test,default,default,ru,subset,zero_gold,1,100.0,100.0
+yandexgpt-manual-test,default,default,ru,domain,books,1,89.333333,89.333333
+yandexgpt-manual-test,default,default,ru,domain,countries,1,100.0,100.0
+yandexgpt-manual-test,default,default,ru,domain,movie,2,92.7358855,92.7358855
+yandexgpt-manual-test,default,default,ru,domain,museums,1,100.0,100.0
+yandexgpt-manual-test,default,default,ru,domain,paintings,1,10.625,10.625
+yandexgpt-manual-test,default,default,ru,domain,software,1,91.6875,91.6875
+yandexgpt-manual-test,default,default,ru,complexity,L1,1,100.0,100.0
+yandexgpt-manual-test,default,default,ru,complexity,L3,5,75.4235208,89.333333
+yandexgpt-manual-test,default,default,ru,complexity,L5,1,100.0,100.0
+yandexgpt-manual-test,default,default,ru,answerability,answerable,6,79.51960066666668,90.51041649999999
+yandexgpt-manual-test,default,default,ru,answerability,zero_gold,1,100.0,100.0

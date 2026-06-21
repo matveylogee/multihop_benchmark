@@ -1,0 +1,36 @@
+{
+  "dataset_path": "/Users/matvey/Desktop/multihop_benchmark/data/multihop_dataset_raw.jsonl",
+  "judge_results_path": "/Users/matvey/Desktop/multihop_benchmark/data/calibration_judge_results_16.jsonl",
+  "schema_path": "/Users/matvey/Desktop/multihop_benchmark/prompts/judge_atomic.schema.json",
+  "dataset_sha256": "130da14413ffc4925c2699dd37c9f2b8cb04b6af4bd2cc5ea719a3cd620ea622",
+  "judge_results_sha256": "ee9b2f04e184512ae98a04a878e2e8143a0aacea80fc604c5fa92fe4841ac123",
+  "schema_sha256": "85364c6e14abf2311d5d0a16d90a8240b9168d6e52355104e5953d5d224cd132",
+  "dataset_records": 1300,
+  "judge_result_rows": 16,
+  "scoring_config": {
+    "soft_non_gold_weight": 0.5,
+    "unknown_constraint_credit": 0.5,
+    "severity_critical": 1.0,
+    "severity_important": 0.6,
+    "severity_standard": 0.3,
+    "format_clean": 1.0,
+    "format_minor_issues": 0.7,
+    "format_hard_to_parse": 0.4,
+    "format_unparseable": 0.0,
+    "explanation_adequate": 1.0,
+    "explanation_partial": 0.5,
+    "explanation_incorrect": 0.0,
+    "explanation_absent": 0.0,
+    "clean_underanswer_penalty_weight": 0.31,
+    "possible_non_gold_support_weight": 0.11,
+    "all_wrong_domain_score_cap": 10.0,
+    "all_nonexistent_score_cap": 5.0,
+    "zero_gold_entities_score_cap": 3.0,
+    "round_digits": 6
+  },
+  "official_policy": {
+    "requires_full_dataset": true,
+    "requires_no_invalid_rows": true,
+    "requires_no_review_rows": true
+  }
+}

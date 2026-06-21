@@ -1,0 +1,587 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/matveylogee/multihop_benchmark/schemas/judge_annotation.schema.json",
+  "title": "MultiHopBench Atomic Judge Annotation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "query_id",
+    "answerability",
+    "input_consistency",
+    "response_type",
+    "entities",
+    "response_flags",
+    "main_error_type",
+    "secondary_error_types",
+    "uncertainty",
+    "review_needed",
+    "review_reasons",
+    "short_reason"
+  ],
+  "properties": {
+    "query_id": {
+      "type": "string"
+    },
+    "answerability": {
+      "enum": [
+        "answerable",
+        "zero_gold",
+        "unknown"
+      ]
+    },
+    "input_consistency": {
+      "$ref": "#/$defs/input_consistency"
+    },
+    "response_type": {
+      "enum": [
+        "direct_answer",
+        "refusal",
+        "mixed",
+        "empty",
+        "unparseable",
+        "irrelevant"
+      ]
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/entity"
+      }
+    },
+    "response_flags": {
+      "$ref": "#/$defs/response_flags"
+    },
+    "main_error_type": {
+      "enum": [
+        "none",
+        "incomplete_list",
+        "missed_constraint",
+        "entity_substitution",
+        "wrong_domain",
+        "constraint_violation",
+        "hallucination",
+        "nonexistent_entity",
+        "unsupported_entity",
+        "false_refusal",
+        "bad_zero_gold_behavior",
+        "format_error",
+        "ambiguous_answer",
+        "irrelevant_answer",
+        "mostly_wrong",
+        "unparseable",
+        "input_inconsistency",
+        "other"
+      ]
+    },
+    "secondary_error_types": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "incomplete_list",
+          "missed_constraint",
+          "entity_substitution",
+          "wrong_domain",
+          "constraint_violation",
+          "hallucination",
+          "nonexistent_entity",
+          "unsupported_entity",
+          "false_refusal",
+          "bad_zero_gold_behavior",
+          "format_error",
+          "ambiguous_answer",
+          "irrelevant_answer",
+          "mostly_wrong",
+          "unparseable",
+          "input_inconsistency",
+          "other"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "uncertainty": {
+      "enum": [
+        "low",
+        "medium",
+        "high"
+      ]
+    },
+    "review_needed": {
+      "type": "boolean"
+    },
+    "review_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "short_reason": {
+      "type": "string"
+    }
+  },
+  "$defs": {
+    "input_consistency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "issues"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "consistent",
+            "possibly_inconsistent",
+            "inconsistent"
+          ]
+        },
+        "issues": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "consistent"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "issues": {
+                "maxItems": 0
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "possibly_inconsistent",
+                  "inconsistent"
+                ]
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "issues": {
+                "minItems": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "constraint_check": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "constraint_key",
+        "status",
+        "severity",
+        "evidence_basis",
+        "note"
+      ],
+      "properties": {
+        "constraint_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "status": {
+          "enum": [
+            "satisfied",
+            "violated",
+            "unknown",
+            "not_applicable"
+          ]
+        },
+        "severity": {
+          "enum": [
+            "critical",
+            "important",
+            "standard"
+          ]
+        },
+        "evidence_basis": {
+          "enum": [
+            "gold",
+            "gold_alias",
+            "provided_context",
+            "external_verification",
+            "uncertain",
+            "not_applicable"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "entity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "raw_text",
+        "normalized_name",
+        "mention_count",
+        "status",
+        "validation_basis",
+        "validation_note",
+        "matched_gold_id",
+        "matched_gold_label",
+        "constraint_checks"
+      ],
+      "properties": {
+        "raw_text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "normalized_name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "mention_count": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "status": {
+          "enum": [
+            "gold_match",
+            "gold_alias_match",
+            "correct_by_constraints",
+            "possibly_correct_not_in_gold",
+            "constraint_violation",
+            "wrong_domain",
+            "entity_substitution",
+            "unsupported_entity",
+            "nonexistent_hallucination",
+            "ambiguous"
+          ]
+        },
+        "validation_basis": {
+          "enum": [
+            "gold",
+            "gold_alias",
+            "provided_context",
+            "external_verification",
+            "uncertain",
+            "not_applicable"
+          ]
+        },
+        "validation_note": {
+          "type": "string"
+        },
+        "matched_gold_id": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^Q[1-9][0-9]*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "matched_gold_label": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "constraint_checks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/constraint_check"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "gold_match"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "validation_basis": {
+                "const": "gold"
+              },
+              "matched_gold_label": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "anyOf": [
+              {
+                "properties": {
+                  "matched_gold_id": {
+                    "type": "string",
+                    "pattern": "^Q[1-9][0-9]*$"
+                  }
+                }
+              },
+              {
+                "properties": {
+                  "matched_gold_label": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "gold_alias_match"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "validation_basis": {
+                "const": "gold_alias"
+              },
+              "matched_gold_label": {
+                "type": "string",
+                "minLength": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "correct_by_constraints"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "validation_basis": {
+                "enum": [
+                  "provided_context",
+                  "external_verification"
+                ]
+              },
+              "matched_gold_id": {
+                "type": "null"
+              },
+              "matched_gold_label": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "possibly_correct_not_in_gold",
+                  "constraint_violation",
+                  "wrong_domain",
+                  "entity_substitution",
+                  "unsupported_entity",
+                  "nonexistent_hallucination",
+                  "ambiguous"
+                ]
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "matched_gold_id": {
+                "type": "null"
+              },
+              "matched_gold_label": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "response_flags": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "refusal",
+        "correct_no_answer",
+        "zero_gold_explanation",
+        "contradiction",
+        "format_status"
+      ],
+      "properties": {
+        "refusal": {
+          "enum": [
+            "none",
+            "partial",
+            "full"
+          ]
+        },
+        "correct_no_answer": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "zero_gold_explanation": {
+          "enum": [
+            "adequate",
+            "partial",
+            "incorrect",
+            "absent",
+            "not_applicable"
+          ]
+        },
+        "contradiction": {
+          "type": "boolean"
+        },
+        "format_status": {
+          "enum": [
+            "clean",
+            "minor_issues",
+            "hard_to_parse",
+            "unparseable"
+          ]
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "answerability": {
+            "enum": [
+              "answerable",
+              "unknown"
+            ]
+          }
+        },
+        "required": [
+          "answerability"
+        ]
+      },
+      "then": {
+        "properties": {
+          "response_flags": {
+            "properties": {
+              "correct_no_answer": {
+                "type": "null"
+              },
+              "zero_gold_explanation": {
+                "const": "not_applicable"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "answerability": {
+            "const": "zero_gold"
+          }
+        },
+        "required": [
+          "answerability"
+        ]
+      },
+      "then": {
+        "properties": {
+          "response_flags": {
+            "properties": {
+              "correct_no_answer": {
+                "type": "boolean"
+              },
+              "zero_gold_explanation": {
+                "enum": [
+                  "adequate",
+                  "partial",
+                  "incorrect",
+                  "absent"
+                ]
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "review_needed": {
+            "const": true
+          }
+        },
+        "required": [
+          "review_needed"
+        ]
+      },
+      "then": {
+        "properties": {
+          "review_reasons": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "review_needed": {
+            "const": false
+          }
+        },
+        "required": [
+          "review_needed"
+        ]
+      },
+      "then": {
+        "properties": {
+          "review_reasons": {
+            "maxItems": 0
+          }
+        }
+      }
+    }
+  ]
+}
